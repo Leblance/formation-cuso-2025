@@ -43,6 +43,7 @@ Trois autres éléments sont acceptés par l'élément &lt;model&gt; :
     - @scope : Indique une pseudo-class CSS (before, after, first-line, first-letter).
     - :warning: Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; ajoutera un attribut @style à votre élément HTML (*Inline style*), alors que @cssClass ajoutera un attribut @class. (Montrer à quoi ça ressemble en HTML).
 <img src="images/ODD_DescOutput.png" width="740"/>
+
 - &lt;pb-template&gt; : (En cours)
 
 Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre des règles compte. La première condition validée est appliquée et les autres ne seront pas lues.
@@ -55,7 +56,7 @@ Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre d
 
 **Model group** : Regroupe des modèles qui ont une sortie (*output*) en commun.
 
-NB : Il est possible de personnaliser votre ODD et de créer vos propres behaviours. Voir [la documentation de TEI-Publisher](https://teipublisher.com/exist/apps/tei-publisher/documentation/extension-modules?odd=docbook.odd&id=introduction&hash=3.12.17.5).
+NB : Il est possible de personnaliser votre ODD et de créer vos propres *behaviours*. Voir [la documentation de TEI-Publisher](https://teipublisher.com/exist/apps/tei-publisher/documentation/extension-modules?odd=docbook.odd&id=introduction&hash=3.12.17.5).
 
 ## 2. L'éditeur d'ODD
 
