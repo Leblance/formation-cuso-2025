@@ -8,7 +8,7 @@ Pour en savoir plus : [Chapitre 23 - Documentation Elements](https://www.tei-c.o
 
 ### 1.2. Les *models*
 
-**Model** (&lt;model&gt;) : Élément de base qui définit des règles de transformation à appliquer à un élément spécifique.
+**Model** (&lt;model&gt;) : Élément de base qui définit des règles de transformation à appliquer à un élément spécifique. Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre des règles compte. La première condition validée est appliquée et les autres ne seront pas lues.
 <img src="images/ODD_model.png" width="400"/>
 
 Cet élément accepte plusieurs attributs :
@@ -34,15 +34,36 @@ En fonction du *behaviour* choisi, vous pouvez lui associer des paramètres, par
 - @value : Valeur du paramètre (expression XPath ou XQuery)
 
 Il existe des paramètres prédéfinis, que vous retrouverez dans les [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-param.html), mais vous pouvez également créer les vôtres.
-<img src="images/ODD_parameters.png" width="470"/>
+<img src="images/ODD_Parameters.png" width="470"/>
 (Montrer à quoi ressemble la sortie en HTML).
 
-Deux autres éléments sont acceptés par l'élément &lt;model&gt; :
+Trois autres éléments sont acceptés par l'élément &lt;model&gt; :
 - &lt;desc&gt; : Permet de documenter chaque règle en en fournissant une rapide description.
 - &lt;outputRendition&gt; :  Permet d'associer un style à un élément.
     - @scope : Indique une pseudo-class CSS (before, after, first-line, first-letter).
-    - !! Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; ajoutera un attribut @style à votre élément HTML (*Inline style*), alors que @cssClass ajoutera un attribut @class. (Montrer à quoi ça ressemble en HTML).
+    - :warning: Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; ajoutera un attribut @style à votre élément HTML (*Inline style*), alors que @cssClass ajoutera un attribut @class. (Montrer à quoi ça ressemble en HTML).
 <img src="images/ODD_DescOutput.png" width="740"/>
+- &lt;pb-template&gt; : (En cours)
+
+Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre des règles compte. La première condition validée est appliquée et les autres ne seront pas lues.
+<img src="images/ODD_severalModels.png" width="770"/>
+
+----------
+
+**Model sequence** : Combinaison de plusieurs modèles qui seront tous appliqués (ce ne sont pas des *models* alternatifs).
+<img src="images/ODD_modelSequence.png" width="650"/>
+
+**Model group** : Regroupe des modèles qui ont une sortie (*output*) en commun.
+
+NB : Il est possible de personnaliser votre ODD et de créer vos propres behaviours. Voir [la documentation de TEI-Publisher](https://teipublisher.com/exist/apps/tei-publisher/documentation/extension-modules?odd=docbook.odd&id=introduction&hash=3.12.17.5).
+
+## 2. L'éditeur d'ODD
+
+
+
+
+
+
 
 
 
