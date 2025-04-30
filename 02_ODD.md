@@ -8,7 +8,7 @@ Pour en savoir plus : [Chapitre 23 - Documentation Elements](https://www.tei-c.o
 
 ### 1.2. Les *models*
 
-**Model** (&lt;model&gt;) : Élément de base qui définit des règles de transformation à appliquer à un élément spécifique. Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre des règles compte. La première condition validée est appliquée et les autres ne seront pas lues.
+**Model** (&lt;model&gt;) : Élément de base qui définit des règles de transformation à appliquer à un élément spécifique. 
 <img src="images/ODD_model.png" width="400"/>
 
 Cet élément accepte plusieurs attributs :
