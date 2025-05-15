@@ -1,5 +1,7 @@
 # Introduction à TEI-Publisher
 
+Objectifs : Créer sa première application et comprendre son organisation.
+
 ## 1. Présentation générale
 Créé en 2015, TEI-Publisher est un outil clé en main qui permet de publier des données XML sans être développeur. Il reste toutefois très flexible et personnalisable pour s'adapter à une large variété de cas. Il repose sur les principaux standards XML (XPath, XSLT, XQuery) et du web (HTML, CSS, Javascript) afin d'assurer l'interopérabilité et la maintenance des données publiées. La version actuelle est la version 9.1, mais une [version 10](https://www.e-editiones.org/posts/community-event-tei-publisher-10-preview/) a déjà été annoncée !
 
@@ -13,11 +15,11 @@ TEI-Publisher bénéficie d'une communauté très active et est supporté depuis
 ## 2. Showcase : Ce que TEI-Publisher permet de faire
 
 - [The Fairy Tales and Stories of Hans Christian Andersen](https://hca.sdu.dk/exist/apps/andersen-irons/index.html) : Éditions de lecture
-- Shakespeare's Plays : Affichage dynamique texte-facsimilé
-- Alfred Escher Briefedition : Frises chronologiques, index, alignement texte-image
-- Van Gogh Letters : Frises chronologiques, édition synoptique (colonnes dynamiques), enrichissement du texte (notes, accès à un index)
-- Démêler le cordel : Affichage dynamique texte-facsimilé, index des lieux avec cartes
-- Thebarum Fabula : Alignement texte original-traduction, apparat critique
+- [Shakespeare's Plays](https://teipublisher.com/exist/apps/shakespeare-pm/index.html) : Affichage dynamique texte-facsimilé
+- [Alfred Escher Briefedition](https://www.briefedition.alfred-escher.ch) : Frises chronologiques, index, alignement texte-image
+- [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html) : Frises chronologiques, édition synoptique (colonnes dynamiques), enrichissement du texte (notes, accès à un index)
+- [Démêler le cordel](https://desenrollandoelcordel.unige.ch) : Affichage dynamique texte-facsimilé, index des lieux avec cartes
+- [Thebarum Fabula](http://thebarumfabula.usc.es) : Alignement texte original-traduction, apparat critique
 
 NB : Sur le site de l'association e-editiones, vous trouverez un [registre](https://www.e-editiones.org/map) des projets qui utilisent TEI-Publisher (bien utile pour faire votre état de l'art et vous donner des idées !).
 
@@ -54,7 +56,7 @@ NB : Sur le site de l'association e-editiones, vous trouverez un [registre](http
 Depuis Exide ou Oxygen, vous constaterez que le dossier "apps" de votre base de données contient désormais un sous-dossier portant le nom abrégé de votre application. Ce dossier se structure de la manière suivante :
 - data : Vos données XML TEI ;
 - modules : Les fichiers XQuery qui assurent le fonctionnement de l'application ;
-    - :warning: Attention : Ne pas modifier les modules qui se trouvent dans le dossier modules/lib ! C'esr le cœur de votre application. Ce sont ces fichiers qui seront modifiés lors des mises à jour.
+    - :warning: Attention : Ne pas modifier les modules qui se trouvent dans le dossier modules/lib ! C'est le cœur de votre application. Ce sont ces fichiers qui seront modifiés lors des mises à jour.
     - Les fichiers à la racine de ce dossier peuvent être modifiés sans risque.
 - resources : Images, css, odd, scripts JS, etc. ;
 - templates : Gabarits de vos pages HTML ;
