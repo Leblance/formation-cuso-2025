@@ -40,12 +40,25 @@ NB : Sur le site de l'association e-editiones, vous trouverez un [registre](http
 1. Cliquer sur "Fonctions avancées > Générateur d'applications".
     - Dans la liste, sélectionner l'ODD que vous venez de créer.
     - URL : http://exist-db.org/apps/mon-app
-    - Nom abrégé : (Le super nom de votre application !)
-    - Titre : (Le super titre de votre application !)
+    - Nom abrégé : (Le super nom de votre application !).
+    - Titre : (Le super titre de votre application !).
     - Gabarit HTML : Choisir celui qui se rapproche le plus de vos besoins (Pas de panique, non seulement vous pourrez le personnaliser, mais vous pourrez également le changer si besoin. Votre choix n'est donc pas décisif).
-    - Vue par défaut : page
-    - Index plein texte par défaut : Créer sur une division
+    - Vue par défaut : page.
+    - Index plein texte par défaut : Créer sur une division.
     - Définir un nom d'utilisateur et un nouveau mot de passe (ils doivent être différents de vos identifiants créés lors de l'installation d'eXist-DB et qui sont vos identifiants admin).
 1. Cliquer sur "Sauvegarder et générer".
-1. Se déconnecter du compte "tei-demo" et faire l'application TEI-Publisher.
-1. Sur le tableau de bord de TEI-Publisher, apparaît désormais votre nouvelle application.
+1. Se déconnecter du compte "tei-demo" et fermer l'application TEI-Publisher.
+1. Sur le tableau de bord d'eXist-DB, apparaît désormais votre nouvelle application.
+
+## 4. Structure d'une application
+Depuis Exide ou Oxygen, vous constaterez que le dossier "apps" de votre base de données contient désormais un sous-dossier portant le nom abrégé de votre application. Ce dossier se structure de la manière suivante :
+- data : Vos données XML TEI ;
+- modules : Les fichiers XQuery qui assurent le fonctionnement de l'application ;
+    - :warning: Attention : Ne pas modifier les modules qui se trouvent dans le dossier modules/lib ! C'esr le cœur de votre application. Ce sont ces fichiers qui seront modifiés lors des mises à jour.
+    - Les fichiers à la racine de ce dossier peuvent être modifiés sans risque.
+- resources : Images, css, odd, scripts JS, etc. ;
+- templates : Gabarits de vos pages HTML ;
+    - À la racine : Gabarits généraux pour le menu, l'index, la page des résultats de recherche, etc.
+    - Dans le dossier "pages" : Gabarits pour les éditions.
+- transform : Feuilles XSLT (générées automatiquement) ;
+- Fichiers à la racine de votre app peuvent être modifiés. Ceux que vous serez les plus susceptibles de modifier sont collection.xconf, index.xql et controller.xql.
