@@ -22,3 +22,30 @@ TEI-Publisher bénéficie d'une communauté très active et est supporté depuis
 NB : Sur le site de l'association e-editiones, vous trouverez un [registre](https://www.e-editiones.org/map) des projets qui utilisent TEI-Publisher (bien utile pour faire votre état de l'art et vous donner des idées !).
 
 ## 3. Création d'une application
+
+1. Ouvrir l'application TEI-Publisher depuis le tableau de bord d'eXist-DB.
+    - eXist-DB est une base de données XML (NoSQL), où chaque élément devient une entrée dans votre base de données. Il permet d'interroger vos données et de les afficher avec le langague XQuery. eXist est aussi un "application server support", qui permet de créer ses propres applications/sites web.
+    - TEI-Publisher est une application d'eXist-DB. L'instance que vous installez est un espace de test et de génération de votre propre application.
+1. Se connecter en mode démo (Login : tei-demo / mot de passe : demo).
+1. Cliquer sur "Aire de jeu" (ou "Playground").
+1. Importer des fichiers TEI en faisant un glisser-déposer dans l'encart à droite de l'écran, puis cliquer sur un fichier.
+1. Tester différentes formes d'affichage du texte et de la page, en ouvrant le "hamburger menu" à droite de l'écran (les 3 barres horizontales) :
+    - ODD : Affichage du texte (transformation des éléments TEI en HTML).
+    - Templates : "Gabarits" de page (position des blocs d'information sur la page).
+1. Créer son ODD :
+    - Retourner sur la page de l'aire de jeu et scroller jusqu'en bas.
+    - Remplisser le formulaire avec le nom de votre fichier ODD (sans l'extension) et le titre à afficher dans la liste.
+    - Cliquer sur "Créer".
+    - Votre ODD apparaît dans la liste. Vous pouvez maintenant la personnaliser en cliquant sur son nom.
+1. Cliquer sur "Fonctions avancées > Générateur d'applications".
+    - Dans la liste, sélectionner l'ODD que vous venez de créer.
+    - URL : http://exist-db.org/apps/mon-app
+    - Nom abrégé : (Le super nom de votre application !)
+    - Titre : (Le super titre de votre application !)
+    - Gabarit HTML : Choisir celui qui se rapproche le plus de vos besoins (Pas de panique, non seulement vous pourrez le personnaliser, mais vous pourrez également le changer si besoin. Votre choix n'est donc pas décisif).
+    - Vue par défaut : page
+    - Index plein texte par défaut : Créer sur une division
+    - Définir un nom d'utilisateur et un nouveau mot de passe (ils doivent être différents de vos identifiants créés lors de l'installation d'eXist-DB et qui sont vos identifiants admin).
+1. Cliquer sur "Sauvegarder et générer".
+1. Se déconnecter du compte "tei-demo" et faire l'application TEI-Publisher.
+1. Sur le tableau de bord de TEI-Publisher, apparaît désormais votre nouvelle application.
