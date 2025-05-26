@@ -2,7 +2,7 @@
 
 ## 1. TEI Processing Model
 ### 1.1. Définition
-(En cours)
+Le *TEI Processing Model* est une spécification de la TEI qui permet d'indiquer directement dans l'ODD  la manière dont un document sera affiché. Il définit un ensemble de comportements par défaut pour transformer les éléments TEI. Ces comportements sont indépendants du média (*media-agnostic*). Ils visent aussi bien une sortie Web que PDF ou LaTeX.
 
 Pour en savoir plus : [Chapitre 23 - Documentation Elements](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPM) (TEI Guidelines)
 
@@ -70,7 +70,7 @@ Pour personnaliser l'ODD, vous pouvez soit la modifier directement dans le fichi
 
 <img src="images/ODD_editeur.png" width="850"/>
 
-Modifications manuelles ou éditeur d'ODD ? *It is up to you!* :warning: Si vous choisissez de coder directement dans le fichier XML, vous devez veiller à :
+Modifications manuelles ou éditeur d'ODD ? *It is up to you!* :warning: Si vous choisissez de coder directement dans le fichier XML, vous devez considèrer plusieurs points :
 - Ne pas oublier l'attribut @mode de l'élément &lt;elementSpec&gt; avec pour valeur "change", afin d'indiquer à votre app que vous avez modifié les règles de cet élément ;
 - Toujours enregistrer votre ODD 2 fois : une fois via votre éditeur XML (Oxygen ou Exide), puis une seconde fois via l'éditeur d'ODD de votre application ! En effet, lorsque vous cliquez sur l'icône d'enregistrement :floppy_disk: de l'éditeur d'ODD, les feuilles XSLT sont regénérées. Elles apparaissent dans le dossier "transform" de votre application. Si vous passez cette étape, les modifications que vous aurez apportées ne seront pas appliquées.
 

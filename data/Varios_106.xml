@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_106">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adelaida en claustro</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
+          <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+        <availability status="restricted">
+          <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="titulo_completo">Adelaida en claustro.</title>
+            <title type="titulo_breve"/>
+          </titleStmt>
+          <editionStmt>
+            <p/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>Llorens</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <country>Suisse</country>
+            <settlement>Genève</settlement>
+            <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
+            </repository>
+            <collection>Colección Varios</collection>
+            <idno type="cote"/>
+            <idno type="DOI">10.5281/zenodo.12751418</idno>
+            <altIdentifier>
+              <idno type="num_impresor"/>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Dos partes</summary>
+            <msItem>
+              <locus>1</locus>
+              <title>Adelaida en claustro.</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Efectos de una buena educacion.</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <dim>in-4</dim>
+                  <material/>
+                </support>
+                <extent>
+                  <measure unit="página" quantity="2"/>2 p.</extent>
+                <condition>Bueno</condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>2 columnas</p>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <summary n="2">Dos grabados (p.1)</summary>
+              <decoNote type="lista_grabados">
+                <list>
+                  <item corresp="grabado_v_106_1.xml" facs="varios/Varios_106_1.jpg/253,247,1536,1357/100,/0/default.jpg">grabado_v_106_1</item>
+                  <item corresp="grabado_v_106_2.xml" facs="varios/Varios_106_2.jpg/544,192,1462,1130/100,/0/default.jpg">grabado_v_106_2</item>
+                </list>
+              </decoNote>
+            </decoDesc>
+            <additions/>
+          </physDesc>
+          <history>
+            <origin>
+              <p>Imprenta de Llorens</p>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
+      </projectDesc>
+      <editorialDecl corresp="#automaticTranscription">
+        <correction>
+          <p>OCR corregido</p>
+        </correction>
+        <normalization>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+        </normalization>
+        <punctuation>
+          <p>Se conserva la puntuación original.</p>
+        </punctuation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:base="http://datos.bne.es/tema/">
+          <term target="XX5494807.html" type="tipo_texto">Panegíricos</term>
+          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term type="verso_prosa">Verso</term>
+          <term type="sagrado_profano">Profano</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_106_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
+  <sourceDoc xml:id="automaticTranscription">
+    <surface xml:id="Varios_106_1" type="page" cert="silver">
+      <graphic url="Varios_106_1/full/full/0/default.jpg"/>
+      <zone xml:id="Varios_106_1_BT223_1" n="1" type="CustomZone" subtype="title" points="688,1747 629,1719 629,1638 1323,1628 1391,1668 1351,1747 " source="Varios_106_1/629,1628,762,119/full/0/default" corresp="CustomZone:title">
+        <zone xml:id="Varios_106_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="650,1719 650,1630 1039,1638 1044,1638 1062,1625 1065,1625 1067,1625 1070,1625 1275,1640 1277,1640 1280,1640 1297,1628 1300,1628 1302,1628 1305,1628 1308,1628 1343,1643 1343,1726 1340,1742 1123,1757 1120,1757 1118,1757 1067,1742 1057,1742 1047,1742 984,1754 981,1754 931,1742 920,1742 647,1742 " source="Varios_106_1/647,1625,696,132/full/0/default" corresp="HeadingLine">
+          <path xml:id="Varios_106_1_BT223_1_LT84_1_1" points="650,1719 1343,1726 "/>
+          <line>ADELAIDA EN CLAUSTRO.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_1_BT227_2" n="2" type="MainZone" subtype="columns" points="804,1759 843,1776 843,1837 882,1837 883,1844 876,1844 876,1922 926,1922 926,1987 873,1987 873,2023 845,2042 865,2303 774,2333 394,2323 374,1820 404,1759 " source="Varios_106_1/374,1759,552,574/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_106_1_BT227_2_LT83_1" type="DefaultLine" subtype="none" points="422,1797 417,1744 794,1752 799,1792 796,1817 422,1820 " source="Varios_106_1/417,1744,382,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_1_1" points="422,1797 799,1792 " corresp="DefaultLine"/>
+          <line>Hoy en esta soledad</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="379,1850 379,1797 860,1812 860,1855 855,1883 516,1870 503,1870 430,1881 430,1881 427,1881 427,1881 425,1881 371,1865 " source="Varios_106_1/371,1797,489,86/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_2_1" points="379,1850 860,1855 " corresp="DefaultLine"/>
+          <line>Gozo de placer y calma,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_3" type="DefaultLine" subtype="none" points="382,1911 382,1863 784,1870 784,1911 781,1926 379,1924 " source="Varios_106_1/379,1863,405,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_3_1" points="382,1911 784,1911 " corresp="DefaultLine"/>
+          <line>Y se estasía mi alma</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_4" type="DefaultLine" subtype="none" points="379,1964 376,1916 877,1908 880,1908 880,1908 882,1908 882,1908 931,1926 931,1972 925,1994 374,1979 " source="Varios_106_1/374,1908,557,86/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_4_1" points="379,1964 931,1972 " corresp="DefaultLine"/>
+          <line>En Dios, que es suma bondad.</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_5" type="DefaultLine" subtype="none" points="419,2025 414,1982 809,1967 817,2020 817,2035 419,2037 " source="Varios_106_1/414,1967,403,70/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_5_1" points="419,2025 817,2020 " corresp="DefaultLine"/>
+          <line>Aquí de tranquilidad</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_6" type="DefaultLine" subtype="none" points="376,2075 376,2027 807,2040 807,2083 804,2108 665,2108 662,2106 662,2106 660,2106 660,2106 660,2106 657,2106 647,2101 635,2093 561,2095 404,2101 402,2101 402,2101 399,2101 399,2101 399,2101 369,2085 " source="Varios_106_1/369,2027,438,81/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_6_1" points="376,2075 807,2083 " corresp="DefaultLine"/>
+          <line>Goza el triste corazon,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_7" type="DefaultLine" subtype="none" points="376,2136 376,2093 814,2095 814,2136 814,2151 376,2154 " source="Varios_106_1/376,2093,438,61/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_7_1" points="376,2136 814,2136 " corresp="DefaultLine"/>
+          <line>Aquí de grata emocion</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_8" type="DefaultLine" subtype="none" points="376,2187 376,2138 847,2149 847,2192 845,2207 374,2214 " source="Varios_106_1/374,2138,473,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_8_1" points="376,2187 847,2192 " corresp="DefaultLine"/>
+          <line>Goza mi pecho sensible,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_9" type="DefaultLine" subtype="none" points="376,2247 376,2204 834,2204 834,2247 834,2262 376,2267 " source="Varios_106_1/376,2204,458,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_9_1" points="376,2247 834,2247 " corresp="DefaultLine"/>
+          <line>Con el bál samo infalible</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_2_LT83_10" type="DefaultLine" subtype="none" points="376,2300 374,2255 799,2252 804,2305 799,2318 371,2315 " source="Varios_106_1/371,2252,433,66/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_2_LT83_10_1" points="376,2300 804,2305 " corresp="DefaultLine"/>
+          <line>De la Santa Religíon!</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_1_BT227_3" n="3" type="MainZone" subtype="columns" points="999,1769 1611,1769 1631,1817 1583,1846 1459,1846 1459,1990 1503,1990 1510,2002 1469,2151 1540,2214 1540,2283 1300,2323 956,2314 956,2114 941,2114 940,2097 952,2097 952,1999 949,1999 949,1844 " source="Varios_106_1/940,1769,691,554/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_106_1_BT227_3_LT83_1" type="DefaultLine" subtype="none" points="1006,1805 999,1762 1047,1747 1049,1747 1049,1747 1049,1747 1052,1747 1211,1757 1421,1742 1421,1742 1424,1742 1611,1754 1616,1797 1614,1825 1176,1820 1168,1820 1128,1833 1125,1833 1125,1833 1123,1833 1123,1833 1123,1833 1120,1833 1120,1833 1120,1833 1118,1833 1118,1833 1105,1820 1103,1820 1006,1820 " source="Varios_106_1/999,1742,617,91/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_1_1" points="1006,1805 1616,1797 " corresp="DefaultLine"/>
+          <line>¿Qué me importa á mi del mundo,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="969,1855 969,1802 1449,1815 1449,1863 1444,1883 963,1868 " source="Varios_106_1/963,1802,486,81/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_2_1" points="969,1855 1449,1863 " corresp="DefaultLine"/>
+          <line>Su lujo, su pompa vana,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_3" type="DefaultLine" subtype="none" points="969,1916 969,1870 1381,1870 1381,1916 1378,1934 966,1929 " source="Varios_106_1/966,1870,415,64/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_3_1" points="969,1916 1381,1916 " corresp="DefaultLine"/>
+          <line>Si tales dijes mañana</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_4" type="DefaultLine" subtype="none" points="963,1972 961,1929 1401,1919 1404,1972 1404,1989 963,1989 " source="Varios_106_1/961,1919,443,70/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_4_1" points="963,1972 1404,1972 " corresp="DefaultLine"/>
+          <line>De nada me servirán ?</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_5" type="DefaultLine" subtype="none" points="1017,2027 1017,1974 1480,1982 1480,2027 1477,2058 1014,2045 " source="Varios_106_1/1014,1974,466,84/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_5_1" points="1017,2027 1480,2027 " corresp="DefaultLine"/>
+          <line>Tan solo sí, aumentarán,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_6" type="DefaultLine" subtype="none" points="971,2083 971,2027 1429,2042 1432,2088 1426,2106 966,2093 " source="Varios_106_1/966,2027,466,79/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_6_1" points="971,2083 1432,2088 " corresp="DefaultLine"/>
+          <line>Mi torpeza y confusion,</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_7" type="DefaultLine" subtype="none" points="971,2138 974,2078 1029,2093 1411,2095 1414,2144 1409,2154 966,2151 " source="Varios_106_1/966,2078,448,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_7_1" points="971,2138 1414,2144 " corresp="DefaultLine"/>
+          <line>Llenándome de baldon</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_8" type="DefaultLine" subtype="none" points="974,2197 974,2144 1442,2144 1442,2197 1439,2217 971,2209 " source="Varios_106_1/971,2144,471,73/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_8_1" points="974,2197 1442,2197 " corresp="DefaultLine"/>
+          <line>Y pervirtiendo mi alma!</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_9" type="DefaultLine" subtype="none" points="971,2255 966,2212 1001,2197 1001,2197 1004,2197 1004,2197 1006,2197 1528,2209 1528,2255 1528,2272 971,2272 " source="Varios_106_1/966,2197,562,75/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_9_1" points="971,2255 1528,2255 " corresp="DefaultLine"/>
+          <line>¡ Mas grata es la dulce calma</line>
+        </zone>
+        <zone xml:id="Varios_106_1_BT227_3_LT83_10" type="DefaultLine" subtype="none" points="974,2310 971,2265 1404,2255 1406,2310 1406,2331 974,2331 " source="Varios_106_1/971,2255,435,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT227_3_LT83_10_1" points="974,2310 1406,2310 " corresp="DefaultLine"/>
+          <line>De la Santa Religion!</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_1_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="506,2444 516,2406 1374,2379 1475,2381 1475,2452 541,2452 " source="Varios_106_1/506,2379,969,73/full/0/default" corresp="MarginTextZone:colophon">
+        <zone xml:id="Varios_106_1_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="526,2429 526,2391 1454,2406 1457,2439 1452,2485 1348,2472 1305,2482 1275,2487 1275,2487 1275,2487 1272,2487 1272,2487 1272,2487 1270,2487 1270,2487 1270,2487 1254,2480 1219,2462 1191,2462 1173,2477 1171,2480 1171,2482 1171,2482 1168,2482 1168,2482 1168,2482 1166,2482 1166,2482 1166,2482 994,2485 991,2485 991,2485 989,2485 941,2470 900,2460 796,2460 786,2467 781,2472 781,2472 779,2472 779,2472 779,2472 776,2472 776,2472 776,2472 774,2472 774,2472 693,2462 637,2457 627,2462 597,2477 597,2477 597,2477 594,2477 594,2477 594,2477 592,2477 592,2477 589,2477 518,2457 " source="Varios_106_1/518,2391,939,96/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_1_BT228_4_LT83_1_1" points="528,2432 1458,2441 "/>
+          <line>Barcelona: Imprenta de Llorens, Palma de Sta. Catalina, 6.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_1_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="273,247 253,1601 1763,1604 1789,249 " source="Varios_106_1/253,247,1536,1357/full/0/default" corresp="GraphicZone:illustration"/>
+    </surface>
+    <surface xml:id="Varios_106_2" type="page" cert="silver">
+      <graphic url="Varios_106_2/full/full/0/default.jpg"/>
+      <zone xml:id="Varios_106_2_BT223_1" n="1" type="CustomZone" subtype="title" points="1793,1504 770,1479 770,1355 1793,1365 1834,1423 " source="Varios_106_2/770,1355,1064,149/full/0/default" corresp="CustomZone:title">
+        <zone xml:id="Varios_106_2_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="802,1474 794,1382 1773,1370 1781,1463 1778,1481 1563,1496 1561,1496 1558,1496 1540,1486 1533,1496 1530,1496 1530,1499 1528,1499 1525,1499 1523,1499 799,1491 " source="Varios_106_2/794,1370,987,129/full/0/default" corresp="HeadingLine">
+          <path xml:id="Varios_106_2_BT223_1_LT84_1_1" points="802,1474 1781,1463 "/>
+          <line>EFECTOS DE UNA BUENA EDUCACION.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_2_BT227_2" n="2" type="MainZone" subtype="columns" points="1270,1729 1273,1726 1273,1827 1231,1827 1231,1896 1075,1896 1075,1938 1197,1938 1197,2020 1210,2020 1189,2073 1219,2151 1228,2173 1230,2230 677,2223 678,1597 716,1537 1108,1537 1130,1729 " source="Varios_106_2/677,1537,596,693/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_106_2_BT227_2_LT83_1" type="DefaultLine" subtype="none" points="726,1580 721,1532 1108,1532 1113,1575 1108,1597 723,1595 " source="Varios_106_2/721,1532,392,65/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_1_1" points="726,1580 1113,1575 " corresp="DefaultLine"/>
+          <line>Instruir la juventud</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="688,1633 685,1585 1060,1582 1062,1582 1062,1582 1065,1582 1065,1582 1065,1582 1067,1582 1090,1597 1087,1638 1082,1651 683,1645 " source="Varios_106_2/683,1582,407,69/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_2_1" points="688,1633 1087,1638 " corresp="DefaultLine"/>
+          <line>En religion y moral,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_3" type="DefaultLine" subtype="none" points="688,1691 683,1648 1039,1645 1047,1686 1047,1696 688,1706 " source="Varios_106_2/683,1645,364,61/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_3_1" points="688,1691 1047,1686 " corresp="DefaultLine"/>
+          <line>Es lo 'mas esencial</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_4" type="DefaultLine" subtype="none" points="693,1747 690,1696 1085,1699 1090,1739 1090,1762 693,1762 " source="Varios_106_2/690,1696,400,66/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_4_1" points="693,1747 1090,1739 " corresp="DefaultLine"/>
+          <line>Y digno de galardon.</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_5" type="DefaultLine" subtype="none" points="726,1802 723,1752 1275,1757 1280,1797 1280,1820 726,1820 " source="Varios_106_2/723,1752,557,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_5_1" points="726,1802 1280,1797 " corresp="DefaultLine"/>
+          <line>Que sin moral no hay virtud,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_6" type="DefaultLine" subtype="none" points="688,1860 688,1807 1229,1812 1229,1860 1227,1883 685,1876 " source="Varios_106_2/685,1807,544,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_6_1" points="688,1860 1229,1860 " corresp="DefaultLine"/>
+          <line>Sin virtud, no hay honradez.</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_7" type="DefaultLine" subtype="none" points="690,1913 690,1863 1047,1868 1047,1913 1047,1926 690,1931 " source="Varios_106_2/690,1863,357,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_7_1" points="690,1913 1047,1913 " corresp="DefaultLine"/>
+          <line>Y esta la fuente es</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_8" type="DefaultLine" subtype="none" points="688,1972 688,1919 1176,1929 1176,1972 1176,1984 688,1994 " source="Varios_106_2/688,1919,488,75/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_8_1" points="688,1972 1176,1972 " corresp="DefaultLine"/>
+          <line>De una buena educacion.</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_9" type="DefaultLine" subtype="none" points="726,2025 726,1972 1166,1984 1168,2030 1163,2053 721,2040 " source="Varios_106_2/721,1972,447,81/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_9_1" points="726,2025 1168,2030 " corresp="DefaultLine"/>
+          <line>Por eso el sábio Pastor,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_10" type="DefaultLine" subtype="none" points="688,2085 675,2050 685,2035 685,2035 688,2035 688,2032 688,2032 690,2032 690,2032 690,2032 693,2032 693,2032 695,2032 1060,2042 1065,2080 1062,2108 688,2108 " source="Varios_106_2/675,2032,390,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_10_1" points="688,2085 1065,2080 " corresp="DefaultLine"/>
+          <line>El Prelado cariñoso,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_11" type="DefaultLine" subtype="none" points="688,2144 683,2101 1146,2095 1153,2138 1151,2156 688,2161 " source="Varios_106_2/683,2095,470,66/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_11_1" points="688,2144 1153,2138 " corresp="DefaultLine"/>
+          <line>Se ocupa siempre gozoso</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_2_LT83_12" type="DefaultLine" subtype="none" points="688,2202 683,2159 1194,2156 1201,2197 1201,2217 688,2219 " source="Varios_106_2/683,2156,518,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_2_LT83_12_1" points="688,2202 1201,2197 " corresp="DefaultLine"/>
+          <line>Lleno de paz y de uncion:</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_2_BT227_3" n="3" type="MainZone" subtype="columns" points="1302,1696 1292,1597 1353,1537 1803,1537 1801,1625 1844,1658 1854,1726 1783,1969 1864,2101 1793,2161 1803,2201 1763,2202 1297,2233 1272,2202 1313,2174 1294,2151 1304,2011 1298,1983 1298,1700 " source="Varios_106_2/1272,1537,592,696/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_106_2_BT227_3_LT83_1" type="DefaultLine" subtype="none" points="1361,1580 1358,1527 1796,1532 1801,1572 1801,1595 1361,1595 " source="Varios_106_2/1358,1527,443,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_1_1" points="1361,1580 1801,1572 " corresp="DefaultLine"/>
+          <line>En propagar la fé pura</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="1315,1635 1313,1585 1743,1590 1748,1630 1745,1651 1315,1651 " source="Varios_106_2/1313,1585,435,66/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_2_1" points="1315,1635 1748,1630 " corresp="DefaultLine"/>
+          <line>Y creencia sacrosanta,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_3" type="DefaultLine" subtype="none" points="1315,1688 1310,1648 1819,1638 1826,1678 1824,1704 1315,1706 " source="Varios_106_2/1310,1638,516,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_3_1" points="1315,1688 1826,1678 " corresp="DefaultLine"/>
+          <line>De nuestra Religion Santa,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_4" type="DefaultLine" subtype="none" points="1315,1744 1310,1704 1836,1696 1844,1736 1844,1757 1315,1757 " source="Varios_106_2/1310,1696,534,61/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_4_1" points="1315,1744 1844,1736 " corresp="DefaultLine"/>
+          <line>Que es fuente de salvacion.</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_5" type="DefaultLine" subtype="none" points="1353,1802 1348,1757 1485,1754 1492,1742 1495,1742 1495,1739 1495,1739 1497,1739 1497,1739 1497,1739 1500,1739 1500,1739 1502,1739 1776,1749 1781,1795 1778,1817 1351,1815 " source="Varios_106_2/1348,1739,433,78/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_5_1" points="1353,1802 1781,1795 " corresp="DefaultLine"/>
+          <line>La juventud instruida</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_6" type="DefaultLine" subtype="none" points="1318,1858 1315,1807 1728,1812 1733,1853 1728,1876 1315,1870 " source="Varios_106_2/1315,1807,418,69/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_6_1" points="1318,1858 1733,1853 " corresp="DefaultLine"/>
+          <line>En la moral cristiana,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_7" type="DefaultLine" subtype="none" points="1320,1913 1315,1873 1750,1868 1758,1908 1753,1931 1318,1929 " source="Varios_106_2/1315,1868,443,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_7_1" points="1320,1913 1758,1908 " corresp="DefaultLine"/>
+          <line>Crecerá siempre lozana</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_8" type="DefaultLine" subtype="none" points="1323,1972 1318,1926 1735,1921 1743,1967 1743,1979 1323,1984 " source="Varios_106_2/1318,1921,425,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_8_1" points="1323,1972 1743,1967 " corresp="DefaultLine"/>
+          <line>Y ópimos frutos dará.</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_9" type="DefaultLine" subtype="none" points="1353,2027 1351,1977 1798,1979 1803,2020 1801,2045 1353,2045 " source="Varios_106_2/1351,1977,452,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_9_1" points="1353,2027 1803,2020 " corresp="DefaultLine"/>
+          <line>Mas si esta se descuida,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_10" type="DefaultLine" subtype="none" points="1323,2085 1318,2027 1394,2025 1396,2025 1396,2025 1399,2025 1399,2025 1399,2025 1401,2025 1404,2027 1426,2042 1485,2030 1497,2027 1497,2027 1497,2027 1500,2027 1500,2027 1500,2027 1515,2030 1561,2040 1571,2030 1578,2025 1578,2025 1581,2025 1581,2025 1581,2025 1583,2025 1583,2025 1586,2025 1841,2037 1846,2075 1846,2088 1323,2103 " source="Varios_106_2/1318,2025,528,78/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_10_1" points="1323,2085 1846,2075 " corresp="DefaultLine"/>
+          <line>Y en el mar de las pasiones</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_11" type="DefaultLine" subtype="none" points="1318,2141 1310,2098 1776,2093 1783,2136 1783,2156 1318,2156 " source="Varios_106_2/1310,2093,473,63/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_11_1" points="1318,2141 1783,2136 " corresp="DefaultLine"/>
+          <line>Engolfais sus corazones,</line>
+        </zone>
+        <zone xml:id="Varios_106_2_BT227_3_LT83_12" type="DefaultLine" subtype="none" points="1320,2199 1315,2154 1495,2136 1495,2136 1497,2136 1667,2149 1672,2194 1672,2219 1320,2219 " source="Varios_106_2/1315,2136,357,83/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_106_2_BT227_3_LT83_12_1" points="1320,2199 1672,2194 " corresp="DefaultLine"/>
+          <line>Abrojos producirá.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_106_2_BT224_4" n="4" type="GraphicZone" subtype="illustration" points="597,1524 597,1517 604,1517 604,1524 " source="Varios_106_2/597,1517,7,7/full/0/default" corresp="GraphicZone:illustration"/>
+      <zone xml:id="Varios_106_2_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="604,1628 604,1635 597,1635 597,1628 " source="Varios_106_2/597,1628,7,7/full/0/default" corresp="GraphicZone:illustration"/>
+      <zone xml:id="Varios_106_2_BT224_6" n="6" type="GraphicZone" subtype="illustration" points="617,1352 614,1345 629,1345 " source="Varios_106_2/614,1345,15,7/full/0/default" corresp="GraphicZone:illustration"/>
+      <zone xml:id="Varios_106_2_BT224_7" n="7" type="GraphicZone" subtype="illustration" points="571,1309 544,1312 566,232 877,192 1490,192 1945,252 1996,404 2006,1322 788,1303 655,1320 613,1315 " source="Varios_106_2/544,192,1462,1130/full/0/default" corresp="GraphicZone:illustration"/>
+      <zone xml:id="Varios_106_2_BT223_8" n="8" type="CustomZone" subtype="title" points="2140,270 2140,70 2145,70 2145,270 " source="Varios_106_2/2140,70,5,200/full/0/default" corresp="CustomZone:title"/>
+    </surface>
+  </sourceDoc>
+  <text>
+    <body>
+      <div>
+
+        <pb n="1" source="Varios_106_1.jpg" facs="varios/Varios_106_1.jpg"/>
+
+        <div type="parte" n="1">
+          <head type="primer_titulo" rend="negrita">
+            <lb/>ADELAIDA EN CLAUSTRO.</head>
+          <l rend="indent">Hoy en esta soledad</l>
+          <l>Gozo de placer y calma,</l>
+          <l>Y se estasía mi alma</l>
+          <l>En Dios, que es suma bondad.</l>
+          <l rend="indent">Aquí de tranquilidad</l>
+          <l>Goza el triste corazon,</l>
+          <l>Aquí de grata emocion</l>
+          <l>Goza mi pecho sensible,</l>
+          <l>Con el bál samo infalible</l>
+          <l>De la Santa Religíon!</l>
+          <l rend="indent">¿Qué me importa á mi del mundo,</l>
+          <l>Su lujo, su pompa vana,</l>
+          <l>Si tales dijes mañana</l>
+          <l>De nada me servirán ?</l>
+          <l rend="indent">Tan solo sí, aumentarán,</l>
+          <l>Mi torpeza y confusion,</l>
+          <l>Llenándome de baldon</l>
+          <l>Y pervirtiendo mi alma!</l>
+          <l>¡Mas grata es la dulce calma</l>
+          <l>De la Santa Religion!</l>
+        </div>
+        <div type="colofon">
+          <p>
+            <lb/>Barcelona: Imprenta de Llorens, Palma de Sta. Catalina, 6.</p>
+        </div>
+
+        <pb n="2" source="Varios_106_2.jpg" facs="varios/Varios_106_2.jpg"/>
+
+        <div type="parte" n="2">
+          <head type="titulo_parte" rend="negrita">
+            <lb/>EFECTOS DE UNA BUENA EDUCACION.</head>
+          <l rend="indent">Instruir la juventud</l>
+          <l>En religion y moral,</l>
+          <l>Es lo 'mas esencial</l>
+          <l>Y digno de galardon.</l>
+          <l rend="indent">Que sin moral no hay virtud,</l>
+          <l>Sin virtud, no hay honradez.</l>
+          <l>Y esta la fuente es</l>
+          <l>De una buena educacion.</l>
+          <l rend="indent">Por eso el sábio Pastor,</l>
+          <l>El Prelado cariñoso,</l>
+          <l>Se ocupa siempre gozoso</l>
+          <l>Lleno de paz y de uncion:</l>
+          <l rend="indent">En propagar la fé pura</l>
+          <l>Y creencia sacrosanta,</l>
+          <l>De nuestra Religion Santa,</l>
+          <l>Que es fuente de salvacion.</l>
+          <l rend="indent">La juventud instruida</l>
+          <l>En la moral cristiana,</l>
+          <l>Crecerá siempre lozana</l>
+          <l>Y ópimos frutos dará.</l>
+          <l rend="indent">Mas si esta se descuida,</l>
+          <l>Y en el mar de las pasiones</l>
+          <l>Engolfais sus corazones,</l>
+          <l>Abrojos producirá.</l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

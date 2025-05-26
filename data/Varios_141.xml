@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_141">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arrojo de un amante</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
+          <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
+        <availability status="restricted">
+          <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="titulo_completo">Arrojo de un amante</title>
+            <title type="titulo_breve"/>
+          </titleStmt>
+          <editionStmt>
+            <p/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>Cristina Segura</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <country>Suisse</country>
+            <settlement>Genève</settlement>
+            <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
+            </repository>
+            <collection>Colección Varios</collection>
+            <idno type="cote"/>
+            <idno type="DOI">10.5281/zenodo.12786980</idno>
+            <altIdentifier>
+              <idno type="num_impresor"/>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Dos partes</summary>
+            <msItem>
+              <locus>1</locus>
+              <title>Arrojo de un amante</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Robo de una hermosa</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <dim>in-4</dim>
+                  <material subtype="amarillo"/>
+                </support>
+                <extent>
+                  <measure unit="página" quantity="2"/>2 p.</extent>
+                <condition>Bueno</condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>2 columnas</p>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <summary n="2">Dos grabados (p.1)</summary>
+              <decoNote type="lista_grabados">
+                <list>
+                  <item corresp="grabado_v_141_1.xml" facs="varios/Varios_141_1.jpg/333,215,1145,1351/100,/0/default.jpg">grabado_v_141_1</item>
+                  <item corresp="grabado_v_141_2.xml" facs="varios/Varios_141_2.jpg/149,219,1603,1198/100,/0/default.jpg">grabado_v_141_2</item>
+                </list>
+              </decoNote>
+            </decoDesc>
+            <additions/>
+          </physDesc>
+          <history>
+            <origin>
+              <p>Cristina Seguravda</p>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+        </msDesc>
+        
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
+      </projectDesc>
+      <editorialDecl corresp="#automaticTranscription">
+        <correction>
+          <p>OCR corregido</p>
+        </correction>
+        <normalization>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
+        </normalization>
+        <punctuation>
+          <p>Se conserva la puntuación original.</p>
+        </punctuation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:base="http://datos.bne.es/tema/">
+          <term target="XX525577.html" type="tipo_texto">Canciones</term>
+          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term type="verso_prosa">Verso</term>
+          <term type="sagrado_profano">Profano</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_141_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
+  <sourceDoc xml:id="automaticTranscription">
+    <surface xml:id="Varios_141_1" type="page" cert="silver">
+      <graphic url="Varios_141_1/full/full/0/default.jpg"/>
+      <zone xml:id="Varios_141_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1471,1612 1506,1638 1498,1768 1533,1794 1006,1829 298,1803 333,1621 675,1603 " source="Varios_141_1/298,1603,1235,226/full/0/default" corresp="CustomZone:title">
+        <zone xml:id="Varios_141_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="337,1787 335,1614 434,1605 436,1605 436,1605 436,1605 438,1605 438,1605 438,1605 440,1605 454,1614 460,1619 493,1614 528,1610 528,1610 530,1610 530,1610 532,1610 554,1614 581,1621 607,1614 651,1605 651,1605 651,1605 653,1605 653,1605 655,1605 695,1616 715,1621 726,1616 747,1605 747,1605 747,1605 750,1605 750,1605 752,1605 752,1605 752,1605 754,1605 754,1605 780,1616 791,1623 892,1623 899,1616 914,1605 914,1605 916,1605 916,1605 919,1605 919,1605 919,1605 921,1605 921,1605 921,1605 923,1605 923,1605 951,1619 956,1619 962,1619 1022,1608 1022,1608 1022,1608 1024,1608 1024,1608 1026,1608 1065,1619 1074,1621 1079,1619 1103,1605 1103,1605 1103,1605 1105,1605 1105,1605 1107,1605 1191,1605 1191,1605 1191,1605 1193,1605 1193,1605 1193,1605 1223,1621 1226,1623 1478,1623 1478,1787 1480,1803 1449,1818 1449,1818 1449,1818 1447,1818 1447,1818 1447,1818 1445,1818 1445,1818 1443,1818 1443,1818 1408,1805 1386,1820 1384,1820 1384,1820 1384,1820 1381,1820 1381,1820 1379,1820 1379,1820 1379,1820 1377,1820 1377,1820 1377,1820 1375,1820 1375,1820 1375,1818 1362,1805 1329,1820 1329,1820 1327,1820 1327,1820 1327,1820 1324,1820 1324,1820 1324,1820 1322,1820 1322,1820 1291,1807 1280,1818 1280,1820 1280,1820 1278,1820 1278,1820 1278,1820 1276,1820 1276,1820 1276,1822 1230,1822 1228,1820 1228,1820 1226,1820 1226,1820 1226,1820 1223,1820 1223,1818 1208,1807 1208,1805 1206,1807 1171,1820 1171,1820 1169,1820 1169,1820 1169,1822 1125,1822 1123,1820 1123,1820 1120,1820 1120,1820 1120,1820 1118,1820 1118,1820 1103,1807 1101,1805 1087,1807 1030,1820 1030,1820 1030,1822 971,1822 969,1820 969,1820 967,1820 967,1820 967,1820 965,1820 965,1820 965,1818 954,1809 949,1805 938,1809 914,1818 912,1818 912,1818 912,1818 910,1818 910,1818 908,1818 879,1809 862,1805 855,1811 846,1818 846,1820 846,1820 844,1820 844,1820 844,1820 842,1820 842,1820 842,1822 761,1822 758,1820 758,1820 756,1820 756,1820 756,1820 754,1820 754,1818 745,1811 736,1805 337,1816 " source="Varios_141_1/335,1605,1145,217/full/0/default" corresp="HeadingLine">
+          <path xml:id="Varios_141_1_BT223_1_LT84_1_1" points="337,1787 1478,1787 "/>
+          <line>ARROJO DE UN AMANTE</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_141_1_BT224_2" n="2" type="GraphicZone" subtype="illustration" points="1478,215 1450,236 1462,262 1445,1540 1041,1566 342,1540 333,297 359,219 " source="Varios_141_1/333,215,1145,1351/full/0/default" corresp="GraphicZone:illustration"/>
+      <zone xml:id="Varios_141_1_BT227_3" n="3" type="MainZone" subtype="columns" points="94,1843 94,2311 803,2311 803,1843 " source="Varios_141_1/94,1843,709,468/full/0/default" corresp="MainZone:columns"/>
+      <zone xml:id="Varios_141_1_BT227_4" n="4" type="MainZone" subtype="columns" points="927,1846 927,2323 1708,2323 1708,1846 " source="Varios_141_1/927,1846,781,477/full/0/default" corresp="MainZone:columns"/>
+      <zone xml:id="Varios_141_1_BT228_5" n="5" type="MarginTextZone" subtype="colophon" points="251,2326 251,2437 1518,2437 1518,2326 " source="Varios_141_1/251,2326,1267,111/full/0/default" corresp="MarginTextZone:colophon"/>
+    </surface>
+    <surface xml:id="Varios_141_2" type="page" cert="silver">
+      <graphic url="Varios_141_2/full/full/0/default.jpg"/>
+      <zone xml:id="Varios_141_2_BT223_1" n="1" type="CustomZone" subtype="title" points="1524,1577 1585,1759 1533,1785 1120,1794 438,1785 386,1759 377,1603 421,1568 807,1551 " source="Varios_141_2/377,1551,1208,243/full/0/default" corresp="CustomZone:title">
+        <zone xml:id="Varios_141_2_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="425,1735 432,1553 462,1575 526,1564 526,1564 528,1564 528,1564 528,1564 583,1575 603,1559 603,1559 603,1557 603,1557 605,1557 605,1557 607,1557 607,1557 607,1557 609,1557 609,1557 609,1557 611,1557 611,1557 614,1557 616,1559 647,1577 701,1564 704,1564 704,1564 706,1564 706,1564 706,1564 708,1564 747,1577 763,1564 765,1562 765,1559 765,1559 767,1559 767,1559 767,1559 769,1559 769,1559 772,1559 772,1559 772,1559 796,1564 862,1579 914,1568 958,1559 958,1559 960,1559 1127,1562 1127,1562 1127,1562 1129,1562 1169,1575 1182,1579 1191,1577 1228,1564 1230,1564 1230,1564 1230,1564 1232,1564 1232,1564 1366,1581 1368,1581 1370,1581 1390,1566 1390,1566 1392,1566 1392,1566 1394,1566 1394,1566 1394,1566 1397,1566 1397,1566 1399,1566 1399,1566 1399,1566 1401,1566 1401,1566 1401,1568 1414,1581 1539,1588 1537,1748 1537,1768 1476,1792 1476,1792 1473,1792 1473,1792 1471,1792 1471,1792 1471,1792 1469,1792 1469,1792 1467,1792 1467,1792 1467,1789 1443,1770 1333,1785 1333,1785 1331,1785 1331,1785 1329,1785 1329,1785 1329,1785 1327,1785 1300,1768 1265,1778 1263,1778 1263,1778 1263,1778 1261,1778 1261,1778 1261,1778 1259,1778 1259,1778 1239,1770 1219,1787 1219,1787 1217,1787 1217,1787 1217,1787 1215,1787 1215,1787 1212,1787 1212,1787 1212,1787 1210,1787 1210,1787 1210,1787 1180,1772 1133,1789 1133,1789 1131,1789 1131,1789 1129,1789 1129,1789 1129,1789 1127,1789 1127,1789 1127,1789 1125,1789 1125,1789 1125,1787 1103,1765 1074,1765 958,1787 958,1787 958,1789 798,1789 796,1787 721,1785 721,1785 721,1785 719,1785 719,1785 719,1785 717,1785 717,1785 688,1761 594,1783 594,1783 594,1783 592,1783 592,1783 590,1783 590,1783 590,1783 587,1783 587,1783 587,1781 563,1759 532,1759 478,1781 478,1781 475,1781 475,1781 475,1781 473,1781 473,1781 471,1781 471,1781 471,1781 418,1754 " source="Varios_141_2/418,1553,1121,239/full/0/default" corresp="HeadingLine">
+          <path xml:id="Varios_141_2_BT223_1_LT84_1_1" points="425,1735 1537,1748 "/>
+          <line>ROBO DE UNA HERMOSA</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_141_2_BT227_2" n="2" type="MainZone" subtype="columns" points="822,2188 769,2311 726,2322 743,2372 201,2372 201,2006 245,1857 804,1866 787,2030 " source="Varios_141_2/201,1857,621,515/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_141_2_BT227_2_LT83_1" type="DefaultLine" subtype="none" points="265,1892 265,1851 791,1857 791,1899 789,1912 699,1912 679,1925 677,1925 677,1925 677,1925 675,1925 675,1925 675,1927 627,1927 625,1925 625,1925 622,1925 622,1925 622,1925 620,1925 620,1925 620,1923 609,1914 600,1923 600,1923 598,1923 598,1923 598,1923 596,1923 596,1923 594,1923 594,1923 594,1923 535,1912 443,1923 443,1923 440,1923 440,1923 438,1923 438,1923 438,1923 436,1923 436,1923 416,1908 300,1921 300,1921 298,1921 298,1921 298,1921 296,1921 296,1921 258,1903 " source="Varios_141_2/258,1851,533,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_1_1" points="265,1892 791,1899 " corresp="DefaultLine"/>
+          <line>Un arrogante guerrero,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="223,1960 223,1910 289,1921 320,1912 329,1910 331,1910 331,1910 331,1910 333,1910 399,1914 467,1921 478,1919 500,1912 502,1912 502,1912 502,1912 504,1912 504,1912 506,1912 506,1912 506,1912 522,1919 530,1923 561,1921 673,1912 675,1912 675,1912 675,1912 677,1912 721,1927 719,1965 717,1978 221,1984 " source="Varios_141_2/221,1910,500,74/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_2_1" points="223,1960 719,1965 " corresp="DefaultLine"/>
+          <line>por demás enamorado,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_3" type="DefaultLine" subtype="none" points="219,2026 219,1978 620,1989 622,1989 653,1976 653,1976 655,1976 655,1976 655,1976 658,1976 658,1976 660,1976 660,1976 660,1976 662,1976 662,1976 662,1978 675,1989 721,1980 721,1980 721,1980 723,1980 723,1980 726,1980 726,1980 761,1993 761,2030 756,2044 214,2041 " source="Varios_141_2/214,1976,547,68/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_3_1" points="219,2026 761,2030 " corresp="DefaultLine"/>
+          <line>una bella hija ha robado</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_4" type="DefaultLine" subtype="none" points="221,2092 219,2057 423,2046 425,2046 425,2046 427,2046 427,2046 460,2057 495,2046 497,2046 497,2046 497,2046 500,2046 500,2046 500,2046 502,2046 502,2046 504,2046 504,2046 504,2046 517,2059 517,2059 519,2059 541,2048 541,2048 543,2048 543,2048 543,2048 546,2048 546,2048 548,2048 548,2048 548,2048 570,2059 572,2059 576,2059 622,2048 622,2048 622,2048 625,2048 625,2048 627,2048 627,2048 627,2048 629,2048 644,2059 664,2048 664,2048 664,2048 666,2048 666,2048 668,2048 668,2048 791,2061 794,2096 789,2120 563,2111 546,2114 508,2122 508,2122 508,2122 506,2122 506,2122 427,2111 407,2109 394,2111 342,2120 342,2120 339,2120 339,2120 217,2105 " source="Varios_141_2/217,2046,577,76/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_4_1" points="221,2092 794,2096 " corresp="DefaultLine"/>
+          <line>de un princípal caballero.</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_5" type="DefaultLine" subtype="none" points="267,2157 265,2114 405,2105 407,2105 407,2105 407,2105 447,2111 480,2118 515,2111 539,2107 539,2107 539,2107 541,2107 541,2107 543,2107 561,2111 594,2120 631,2111 640,2109 642,2109 642,2109 644,2109 644,2109 644,2109 658,2111 715,2122 807,2111 809,2166 804,2195 489,2179 473,2182 432,2190 432,2190 432,2190 429,2190 429,2190 429,2190 427,2190 427,2190 403,2179 397,2177 381,2179 304,2188 304,2188 302,2188 302,2188 300,2188 300,2188 261,2173 " source="Varios_141_2/261,2105,548,90/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_5_1" points="267,2157 809,2166 " corresp="DefaultLine"/>
+          <line>La niña está desmayada,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_6" type="DefaultLine" subtype="none" points="221,2234 217,2193 302,2177 302,2177 304,2177 304,2177 304,2177 375,2190 403,2179 403,2179 405,2179 405,2179 407,2179 407,2179 407,2179 410,2179 410,2179 410,2179 412,2179 412,2179 425,2193 427,2193 572,2193 574,2193 594,2175 594,2175 596,2175 596,2175 596,2175 598,2175 598,2175 600,2175 600,2175 752,2193 756,2230 754,2252 221,2254 " source="Varios_141_2/217,2175,539,79/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_6_1" points="221,2234 756,2230 " corresp="DefaultLine"/>
+          <line>y va el jinete aguerrido,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_7" type="DefaultLine" subtype="none" points="221,2298 219,2243 252,2241 254,2241 254,2241 254,2241 256,2241 256,2241 258,2241 258,2241 258,2241 258,2243 276,2258 342,2258 368,2241 368,2241 370,2241 370,2241 370,2241 372,2241 372,2241 375,2241 375,2241 375,2241 377,2241 377,2241 377,2241 379,2241 379,2241 397,2254 482,2241 489,2241 489,2241 491,2241 491,2241 491,2241 493,2241 493,2241 493,2241 493,2241 495,2241 495,2241 511,2256 596,2256 616,2241 616,2241 618,2241 618,2241 618,2241 618,2241 620,2241 620,2241 622,2241 690,2241 690,2298 688,2326 337,2315 296,2326 296,2326 293,2326 293,2326 291,2326 291,2326 291,2326 289,2326 289,2326 256,2315 223,2326 " source="Varios_141_2/219,2241,471,85/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_7_1" points="221,2298 690,2298 " corresp="DefaultLine"/>
+          <line>para no ser conocido,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_2_LT83_8" type="DefaultLine" subtype="none" points="217,2359 214,2320 366,2306 368,2306 434,2309 434,2309 434,2309 436,2309 436,2309 436,2309 438,2309 438,2309 454,2324 495,2324 543,2324 543,2324 561,2313 563,2313 563,2313 563,2313 565,2313 565,2313 568,2313 568,2313 675,2328 675,2366 673,2379 598,2392 598,2392 596,2392 596,2392 530,2381 506,2379 497,2383 482,2390 482,2390 482,2390 480,2390 480,2390 478,2390 478,2390 478,2390 475,2390 475,2390 458,2383 447,2379 421,2383 386,2390 386,2390 383,2390 383,2390 383,2390 381,2390 381,2390 381,2390 379,2390 379,2390 372,2383 366,2379 357,2385 355,2388 355,2388 353,2388 353,2388 353,2388 350,2388 350,2388 348,2388 348,2388 348,2388 346,2388 335,2385 304,2377 214,2385 " source="Varios_141_2/214,2306,461,86/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_2_LT83_8_1" points="217,2359 675,2366 " corresp="DefaultLine"/>
+          <line>con la visera calada.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_141_2_BT227_3" n="3" type="MainZone" subtype="columns" points="1638,2109 1752,2147 1752,2197 1708,2234 1717,2328 1673,2381 1577,2398 1070,2398 1052,1936 1087,1857 1629,1866 1656,1980 " source="Varios_141_2/1052,1857,700,541/full/0/default" corresp="MainZone:columns">
+        <zone xml:id="Varios_141_2_BT227_3_LT83_1" type="DefaultLine" subtype="none" points="1112,1899 1109,1846 1162,1844 1164,1844 1164,1844 1164,1844 1166,1844 1166,1844 1166,1844 1169,1844 1173,1849 1186,1857 1226,1851 1239,1849 1239,1849 1241,1849 1241,1849 1241,1849 1243,1849 1243,1849 1243,1849 1245,1849 1245,1849 1248,1851 1259,1860 1320,1853 1362,1851 1362,1851 1364,1851 1364,1851 1366,1851 1366,1851 1366,1851 1368,1851 1368,1851 1368,1853 1373,1855 1377,1860 1379,1857 1384,1853 1384,1851 1384,1851 1386,1851 1386,1851 1386,1851 1388,1851 1388,1851 1388,1851 1478,1849 1480,1849 1480,1849 1594,1866 1594,1908 1590,1927 1107,1914 " source="Varios_141_2/1107,1844,487,83/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_1_1" points="1112,1899 1594,1908 " corresp="DefaultLine"/>
+          <line>El padre se desespera;</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="1065,1969 1063,1919 1151,1912 1153,1912 1153,1912 1153,1912 1155,1912 1155,1912 1155,1912 1158,1912 1169,1921 1184,1932 1226,1932 1239,1923 1252,1912 1254,1912 1254,1912 1254,1912 1256,1912 1256,1912 1259,1912 1300,1912 1300,1912 1300,1912 1302,1912 1302,1912 1302,1912 1305,1912 1322,1925 1327,1927 1331,1925 1346,1912 1346,1912 1348,1912 1348,1912 1348,1912 1351,1912 1351,1912 1351,1912 1353,1912 1353,1912 1355,1912 1355,1912 1355,1912 1357,1912 1357,1912 1375,1925 1381,1930 1408,1927 1487,1919 1487,1919 1489,1919 1489,1919 1491,1919 1491,1919 1491,1919 1493,1919 1509,1930 1511,1932 1513,1930 1524,1921 1524,1921 1526,1921 1526,1921 1526,1921 1528,1921 1528,1921 1530,1921 1530,1921 1627,1934 1629,1973 1627,1991 1063,1993 " source="Varios_141_2/1063,1912,566,81/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_2_1" points="1065,1969 1629,1973 " corresp="DefaultLine"/>
+          <line>queda atado debatiéndose,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_3" type="DefaultLine" subtype="none" points="1068,2037 1065,1995 1620,1984 1623,2037 1623,2050 1537,2063 1537,2063 1535,2063 1065,2059 " source="Varios_141_2/1065,1984,558,79/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_3_1" points="1068,2037 1623,2037 " corresp="DefaultLine"/>
+          <line>y de vista va perdiéndose</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_4" type="DefaultLine" subtype="none" points="1061,2098 1061,2048 1601,2065 1601,2109 1598,2127 1182,2129 1180,2129 1057,2111 " source="Varios_141_2/1057,2048,544,81/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_4_1" points="1061,2098 1601,2109 " corresp="DefaultLine"/>
+          <line>el caballo en su carrera;</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_5" type="DefaultLine" subtype="none" points="1109,2168 1109,2129 1237,2131 1248,2125 1261,2114 1261,2114 1263,2114 1263,2114 1265,2114 1265,2114 1265,2114 1267,2114 1267,2114 1269,2114 1269,2114 1269,2114 1272,2114 1272,2114 1283,2122 1298,2136 1355,2136 1379,2120 1394,2109 1397,2109 1397,2109 1397,2109 1399,2109 1399,2109 1401,2109 1401,2109 1401,2109 1403,2109 1403,2109 1405,2109 1405,2109 1416,2120 1441,2138 1530,2138 1607,2114 1618,2111 1620,2111 1620,2111 1623,2111 1739,2111 1739,2177 1734,2210 1515,2193 1427,2206 1425,2206 1425,2206 1423,2206 1423,2206 1423,2206 1421,2206 1421,2206 1421,2206 1386,2190 1327,2206 1318,2206 1318,2206 1318,2206 1316,2206 1316,2206 1313,2206 1313,2206 1309,2203 1272,2190 1239,2203 1237,2203 1237,2203 1234,2203 1234,2203 1232,2203 1232,2203 1232,2203 1230,2203 1230,2203 1228,2203 1228,2203 1228,2203 1208,2188 1177,2203 1175,2203 1175,2203 1173,2203 1173,2203 1173,2203 1171,2203 1171,2203 1169,2203 1169,2203 1169,2203 1164,2201 1138,2188 1109,2201 " source="Varios_141_2/1109,2109,630,101/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_5_1" points="1109,2168 1739,2177 " corresp="DefaultLine"/>
+          <line>Pues corre veloz cual viento,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_6" type="DefaultLine" subtype="none" points="1068,2239 1068,2190 1357,2199 1375,2197 1419,2186 1419,2186 1419,2186 1421,2186 1421,2186 1421,2186 1480,2199 1487,2199 1489,2199 1520,2186 1520,2186 1522,2186 1522,2186 1522,2186 1524,2186 1524,2186 1526,2186 1583,2201 1581,2239 1579,2265 1276,2254 1241,2265 1239,2265 1239,2265 1239,2265 1239,2265 1237,2265 1237,2265 1237,2265 1237,2265 1184,2254 1068,2265 " source="Varios_141_2/1068,2186,515,79/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_6_1" points="1068,2239 1581,2239 " corresp="DefaultLine"/>
+          <line>parece no toca el suelo,</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_7" type="DefaultLine" subtype="none" points="1072,2309 1072,2254 1684,2269 1684,2309 1684,2333 1072,2333 " source="Varios_141_2/1072,2254,612,79/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_7_1" points="1072,2309 1684,2309 " corresp="DefaultLine"/>
+          <line>y el padre en su desconsuelo</line>
+        </zone>
+        <zone xml:id="Varios_141_2_BT227_3_LT83_8" type="DefaultLine" subtype="none" points="1063,2372 1063,2322 1226,2331 1232,2324 1237,2322 1237,2320 1237,2320 1239,2320 1239,2320 1239,2320 1241,2320 1241,2320 1243,2320 1243,2320 1243,2320 1245,2320 1263,2326 1278,2331 1283,2326 1289,2320 1289,2320 1291,2320 1291,2320 1291,2320 1294,2320 1294,2320 1296,2320 1296,2320 1296,2320 1298,2320 1322,2326 1335,2331 1340,2326 1351,2320 1353,2320 1353,2320 1353,2320 1355,2320 1355,2320 1357,2320 1357,2320 1357,2320 1397,2328 1412,2331 1430,2328 1502,2320 1502,2320 1504,2320 1504,2320 1504,2320 1559,2333 1559,2372 1557,2398 1427,2396 1373,2412 1370,2412 1370,2412 1370,2412 1368,2412 1368,2412 1366,2412 1366,2412 1366,2412 1364,2412 1344,2398 1331,2409 1331,2412 1331,2412 1329,2412 1329,2412 1329,2412 1327,2412 1278,2423 1195,2440 1195,2440 1195,2442 1063,2442 " source="Varios_141_2/1063,2320,496,122/full/0/default" corresp="DefaultLine">
+          <path xml:id="Varios_141_2_BT227_3_LT83_8_1" points="1063,2372 1559,2372 " corresp="DefaultLine"/>
+          <line>fallece de sentimiento.</line>
+        </zone>
+      </zone>
+      <zone xml:id="Varios_141_2_BT224_4" n="4" type="GraphicZone" subtype="illustration" points="1068,227 1269,245 1410,306 1567,344 1638,508 1734,657 1752,1128 1699,1391 1550,1417 298,1417 175,1382 149,1294 149,578 184,219 " source="Varios_141_2/149,219,1603,1198/full/0/default" corresp="GraphicZone:illustration"/>
+    </surface>
+  </sourceDoc>
+  <text>
+    <body>
+      <div>
+
+        <pb n="1" source="Varios_141_1.jpg" facs="varios/Varios_141_1.jpg"/>
+
+        <div n="1">
+          <head type="primer_titulo" rend="negrita">
+            <lb/>ARROJO DE UN AMANTE</head>
+          <l rend="indent">Un antiguo castellano</l>
+          <l>tuvo una hija tan bella,</l>
+          <l>que mil se prendaron de ella</l>
+          <l>y pretendian su manó.</l>
+          <l>Un militar caballero</l>
+          <l>igualmente la pidió;</l>
+          <l>su padre se la negó,</l>
+          <l>y entonces dijo el guerrero:</l>
+          <l rend="indent">No hay burlas con el amor,</l>
+          <l>echada está ya mi suerte,</l>
+          <l>y juro que hasta la muerte</l>
+          <l>no tendrá otro amador.</l>
+          <l>Dicho y hecho: la cogió,</l>
+          <l>un momento descuidada,</l>
+          <l>se la llevó desmayada</l>
+          <l>y con ella se casó.</l>
+          <div type="colofon">
+            <p>
+              <lb/>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
+          </div>
+        </div>
+        <div n="2">
+
+          <pb n="2" source="Varios_141_2.jpg" facs="varios/Varios_141_2.jpg"/>
+
+          <head type="primer_titulo" rend="negrita">
+            <lb/>ROBO DE UNA HERMOSA</head>
+          <l rend="indent">Un arrogante guerrero,</l>
+          <l>por demás enamorado,</l>
+          <l>una bella hija ha robado</l>
+          <l>de un princípal caballero.</l>
+          <l rend="indent">La niña está desmayada,</l>
+          <l>y va el jinete aguerrido,</l>
+          <l>para no ser conocido,</l>
+          <l>con la visera calada.</l>
+          <l rend="indent">El padre se desespera;</l>
+          <l>queda atado debatiéndose,</l>
+          <l>y de vista va perdiéndose</l>
+          <l>el caballo en su carrera;</l>
+          <l rend="indent">Pues corre veloz cual viento,</l>
+          <l>parece no toca el suelo,</l>
+          <l>y el padre en su desconsuelo</l>
+          <l>fallece de sentimiento.</l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
