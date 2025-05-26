@@ -9,6 +9,7 @@ Pour en savoir plus : [Chapitre 23 - Documentation Elements](https://www.tei-c.o
 ### 1.2. Les *models*
 
 **Model** (&lt;model&gt;) : Élément de base qui définit des règles de transformation à appliquer à un élément spécifique. 
+
 <img src="images/ODD_model.png" width="400"/>
 
 Cet élément accepte plusieurs attributs :
@@ -43,7 +44,7 @@ Il existe des paramètres prédéfinis que vous retrouverez dans les [TEI Guidel
 Trois autres éléments sont acceptés par l'élément &lt;model&gt; :
 - &lt;desc&gt; : Permet de documenter chaque règle en en fournissant une rapide description.
 - &lt;outputRendition&gt; :  Permet d'associer un style à un élément.
-    - @scope : Indique une pseudo-class CSS (before, after, first-line, first-letter).
+    - @scope : Indique un pseudo-element CSS (before, after, first-line, first-letter).
     - :warning: Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; ajoutera un attribut @style à votre élément HTML (*Inline style*), alors que @cssClass ajoutera un attribut @class.
 <img src="images/ODD_DescOutput.png" width="740"/>
 
@@ -59,6 +60,7 @@ Plusieurs règles peuvent être appliquées à un élément. :warning: L'ordre d
 **Model group** : Regroupe des modèles qui ont une sortie (*output*) en commun.
 
 **Model sequence** : Combinaison de plusieurs modèles qui seront tous appliqués (ce ne sont pas des *models* alternatifs).
+
 <img src="images/ODD_modelSequence.png" width="650"/>
 
 NB : Il est possible de personnaliser votre ODD et de créer vos propres *behaviours*. Voir [la documentation de TEI-Publisher](https://teipublisher.com/exist/apps/tei-publisher/documentation/extension-modules?odd=docbook.odd&id=introduction&hash=3.12.17.5).
