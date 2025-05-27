@@ -45,7 +45,7 @@ Trois autres éléments sont acceptés par l'élément &lt;model&gt; :
 - &lt;desc&gt; : Permet de documenter chaque règle en en fournissant une rapide description.
 - &lt;outputRendition&gt; :  Permet d'associer un style à un élément.
     - @scope : Indique un pseudo-element CSS (before, after, first-line, first-letter).
-    - :warning: Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; ajoutera un attribut @style à votre élément HTML (*Inline style*), alors que @cssClass ajoutera un attribut @class.
+    - :warning: Quelle différence avec l'attribut @cssClass ? L'élément &lt;outputRendition&gt; encapsule les styles dans votre ODD, alors que @cssClass ajoutera un attribut @class et implique d'avoir une feuille de style externe (ce qui est recommandé pour pouvoir changer l'apparence de plusieurs éléments d'un seul coup !).
 <img src="images/ODD_DescOutput.png" width="740"/>
 
 - &lt;pb-template&gt; : Permet d'étendre le comportement par défaut. Il est possible de définir des paramètres supplémentaires à ajouter dans le template. Ces paramètres apparaitront entre des doubles crochets. Ex: &lt;p&gt;[[content]]&lt;/p&gt;
