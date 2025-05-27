@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_312">
   <teiHeader>
     <fileDesc>
@@ -114,7 +114,7 @@
         </msDesc>
         <listPlace xml:base="https://www.wikidata.org/wiki/">
           <place n="1" corresp="Q12303">
-            <placeName key="Jerez_de_la_Frontera">Jerez De La Frontera</placeName>
+            <placeName xml:id="Jerez_de_la_Frontera">Jerez De La Frontera</placeName>
             <location>
               <geo>36.7 -6.1166666666667</geo>
             </location>
@@ -159,12 +159,9 @@
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <graphic url="varios/Varios_312_1.jpg/full/200,/0/default.jpg"/>
-  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_312_1" type="page" cert="silver">
-      <graphic url="Varios_312_1/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_1.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_312_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1469,1342 1469,1451 205,1451 205,1342 " source="Varios_312_1/205,1342,1264,109/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_312_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="232,1388 230,1405 258,1405 260,1405 277,1418 279,1418 280,1418 281,1418 343,1406 344,1406 395,1418 397,1418 398,1418 425,1406 435,1403 471,1407 556,1418 558,1418 596,1409 620,1403 632,1409 642,1415 644,1415 645,1415 647,1415 661,1410 677,1405 786,1412 835,1415 837,1415 838,1415 844,1413 863,1405 955,1405 984,1413 986,1413 987,1413 989,1413 1011,1406 1087,1407 1106,1416 1116,1421 1117,1421 1119,1421 1120,1421 1133,1416 1170,1406 1189,1418 1193,1421 1195,1421 1196,1421 1198,1422 1447,1422 1449,1393 1447,1362 1361,1352 1360,1352 1358,1352 1357,1352 1342,1361 1339,1364 1247,1364 1240,1361 1203,1351 1202,1351 1201,1351 1199,1351 1165,1361 1157,1362 1148,1361 1107,1351 1106,1351 1104,1351 1079,1359 1073,1362 1068,1359 1044,1349 1043,1349 1008,1349 1006,1349 1005,1349 1003,1349 990,1359 989,1361 986,1359 957,1349 955,1349 954,1349 952,1349 913,1359 911,1359 910,1359 895,1352 894,1352 892,1352 891,1352 889,1352 881,1359 878,1361 866,1359 809,1351 807,1351 745,1358 724,1361 720,1358 707,1349 705,1349 704,1349 702,1349 701,1349 670,1358 661,1361 656,1358 637,1348 635,1348 542,1348 540,1348 539,1348 524,1355 444,1348 442,1348 441,1348 439,1348 428,1358 426,1358 340,1359 334,1356 321,1348 319,1348 318,1348 317,1348 315,1348 295,1356 289,1359 279,1356 249,1348 248,1348 246,1348 245,1348 232,1353 232,1388 " source="Varios_312_1/230,1348,1219,74/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_312_1_BT223_1_LT84_1_1" points="232,1388 1449,1393 "/>
@@ -328,7 +325,7 @@
       <zone xml:id="Varios_312_1_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="65,68 87,1330 1627,1330 1627,79 " source="Varios_312_1/65,68,1562,1262/full/0/default" corresp="GraphicZone:illustration"/>
     </surface>
     <surface xml:id="Varios_312_2" type="page" cert="silver">
-      <graphic url="Varios_312_2/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_2.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_312_2_BT227_1" n="1" type="MainZone" subtype="columns" points="643,8 643,2459 92,2459 92,8 " source="Varios_312_2/92,8,551,2451/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_2_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="525,8 523,8 420,13 376,15 230,8 227,8 213,8 201,8 201,33 199,52 286,49 339,57 351,59 352,59 354,59 355,59 356,57 367,50 443,50 548,62 551,38 551,17 526,8 525,8 " source="Varios_312_2/199,8,352,54/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_2_BT227_1_LT83_1_1" points="201,33 551,38 " corresp="DefaultLine"/>
@@ -747,7 +744,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_312_3" type="page" cert="silver">
-      <graphic url="Varios_312_3/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_3.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_312_3_BT227_1" n="1" type="MainZone" subtype="columns" points="699,10 791,2154 213,2144 203,10 " source="Varios_312_3/203,10,588,2144/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_3_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="477,45 477,57 531,62 533,45 533,14 477,14 477,45 " source="Varios_312_3/477,14,56,48/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_3_BT227_1_LT83_1_1" points="479,47 535,47 " corresp="DefaultLine"/>
@@ -1164,7 +1161,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_312_4" type="page" cert="silver">
-      <graphic url="Varios_312_4/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_4.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_312_4_BT227_1" n="1" type="MainZone" subtype="columns" points="810,83 810,2088 191,2088 191,83 " source="Varios_312_4/191,83,619,2005/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_4_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="524,83 509,83 495,83 480,83 466,83 460,83 429,87 404,83 393,83 378,83 356,92 303,83 290,83 286,83 232,93 233,122 233,135 488,140 489,140 618,129 618,118 615,90 537,83 524,83 " source="Varios_312_4/232,83,386,57/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_4_BT227_1_LT83_1_1" points="233,122 618,118 " corresp="DefaultLine"/>
@@ -1599,19 +1596,21 @@
     <body>
       <div>
 
-        <pb n="1" source="Varios_312_1.jpg" facs="varios/Varios_312_1.jpg"/>
+        <pb n="1" corresp="#Varios_312_1" source="Varios_312_1.jpg" facs="varios/Varios_312_1.jpg"/>
 
-        <head type="primer_titulo" rend="cursiva">
-          <lb/>Coplas para cantarse con la música da las
-          zarzuelas Adriana Angot<lb/>y la Vuelta al Mundo.</head>
+        <head rend="cursiva">
+          <lb/>Coplas para cantarse con la música da las zarzuelas Adriana Angot
+          <lb/>y la Vuelta al Mundo.
+        </head>
+        
         <div n="1">
-          <head type="titulo_cancion">
-            <lb/>
-            <hi rend="negrita">ADRIANA ANGOT.</hi>
-            <lb/>PRIMERA
-            PARTE.</head>
+          <head>
+            <lb/><hi rend="negrita">ADRIANA ANGOT.</hi>
+            <lb/>PRIMERA PARTE.
+          </head>
+          
           <lg>
-            <head type="titulo_estrofa">1.</head>
+            <head>1.</head>
             <l>Yo soy Adriana Angot,</l>
             <l rend="indent">la verdulera,</l>
             <l>y salgo á pasear</l>
@@ -1635,8 +1634,9 @@
             <l rend="indent">Todas las flores</l>
             <l rend="indent">son para tí.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">2.</head>
+            <head>2.</head>
             <l>Yo soy de mi galan</l>
             <l rend="indent">la vida toda:</l>
             <l>mas nunca le oigo hablar</l>
@@ -1648,7 +1648,7 @@
             <l>será del mundo siempre</l>
             <l rend="indent">el señor.</l>
 
-            <pb n="2" source="Varios_312_2.jpg" facs="varios/Varios_312_2.jpg"/>
+            <pb n="2" corresp="#Varios_312_2" source="Varios_312_2.jpg" facs="varios/Varios_312_2.jpg"/>
 
             <l rend="cursiva">Oye, mi dulce bien,</l>
             <l rend="indent">lo que te digo,</l>
@@ -1663,8 +1663,9 @@
             <l rend="indent">del cielo bellas,</l>
             <l rend="indent">fuentes de luz.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">3.</head>
+            <head>3.</head>
             <l>Yo he visto en mi jardin</l>
             <l rend="indent">como las rosas</l>
             <l>desean contemplar</l>
@@ -1688,8 +1689,9 @@
             <l rend="indent">que eres mi amado,</l>
             <l rend="indent">mi solo bien.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">4.</head>
+            <head>4.</head>
             <l>Del baile en el compás,</l>
             <l rend="indent">hermosa Adriana,</l>
             <l>casi siempre verás</l>
@@ -1713,8 +1715,9 @@
             <l rend="indent">cual mariposas</l>
             <l rend="indent">de flor en flor.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">5.</head>
+            <head>5.</head>
             <l>Yo siento, Adriana Angot,</l>
             <l rend="indent">por tus ojitos,</l>
             <l>la más dulce pasion</l>
@@ -1737,8 +1740,9 @@
             <l rend="indent">para consuelo</l>
             <l rend="indent">de tu galan.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">6.</head>
+            <head>6.</head>
             <l>Debajo del balcon</l>
             <l rend="indent">de mi adorada,</l>
             <l>la más bella cancion</l>
@@ -1763,10 +1767,10 @@
             <l rend="indent">del corazon.</l>
           </lg>
 
-          <pb n="3" source="Varios_312_3.jpg" facs="varios/Varios_312_3.jpg"/>
+          <pb n="3" corresp="#Varios_312_3" source="Varios_312_3.jpg" facs="varios/Varios_312_3.jpg"/>
 
           <lg>
-            <head type="titulo_estrofa">7.</head>
+            <head>7.</head>
             <l>En el prado á pasear</l>
             <l rend="indent">los dos iremos,</l>
             <l>y en el cañaveral</l>
@@ -1790,8 +1794,9 @@
             <l rend="indent">ángel de amores,</l>
             <l rend="indent">divina hurí.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">8.</head>
+            <head>8.</head>
             <l>Solos allí los dos,</l>
             <l rend="indent">léjos del mundo,</l>
             <l>diremos nuestro amor</l>
@@ -1815,8 +1820,9 @@
             <l rend="indent">miles de estrellas</l>
             <l rend="indent">alumbrarán.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">9.</head>
+            <head>9.</head>
             <l>Yo quiero sin cesar</l>
             <l rend="indent">seas dichosa,</l>
             <l>y darte de placer</l>
@@ -1840,8 +1846,9 @@
             <l rend="indent">cuando suspira</l>
             <l rend="indent">por su galan.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">10.</head>
+            <head>10.</head>
             <l>Yo soy Adriana Angot,</l>
             <l rend="indent">la verdulera,</l>
             <l>que da por el amor</l>
@@ -1866,20 +1873,21 @@
             <l rend="indent">Adriana Angot.</l>
           </lg>
         </div>
+        
         <div n="2">
-          <head type="titulo_cancion" rend="negrita">
-            <lb/>LA VUELTA AL MUNDO.</head>
+          <head rend="negrita"><lb/>LA VUELTA AL MUNDO.</head>
+          
           <lg>
-            <head type="titulo_estrofa">1.</head>
+            <head>1.</head>
             <l rend="indent">Compré un burro en una feria</l>
-            <l>á un gitano de <name>Jerez</name>,</l>
+            <l>á un gitano de <name corresp="#Jerez_de_la_Frontera">Jerez</name>,</l>
             <l>y treinta duros cabales</l>
             <l>al momento dí por él.</l>
             <l rend="indent">Fuíme á casa con el burro</l>
             <l>y en el pesebre lo entré</l>
             <l>y al darle paja me dijo:</l>
 
-            <pb n="4" source="Varios_312_4.jpg" facs="varios/Varios_312_4.jpg"/>
+            <pb n="4" corresp="#Varios_312_4" source="Varios_312_4.jpg" facs="varios/Varios_312_4.jpg"/>
 
             <l>—La puede comer V.</l>
             <l>¡Vaya que borrico!</l>
@@ -1892,8 +1900,9 @@
             <l>—Yo tengo talento,</l>
             <l>mucho más que V.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">2.</head>
+            <head>2.</head>
             <l rend="indent">Un artista yo conozco</l>
             <l>que alaba mucho su voz</l>
             <l>y quiere pasar por bajo</l>
@@ -1912,8 +1921,9 @@
             <l>perdonen ustedes,</l>
             <l>que estoy ronco hoy.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">3.</head>
+            <head>3.</head>
             <l rend="indent">La otra noche se reunieron</l>
             <l>tres sábios para tratar</l>
             <l>por qué el mundo que habitamos</l>
@@ -1932,8 +1942,9 @@
             <l>como cualquier burro</l>
             <l>vueltas sin parar.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">4.</head>
+            <head>4.</head>
             <l rend="indent">Es la suegra para el yerno</l>
             <l>como un burro zancalon,</l>
             <l>que porque cae de viejo</l>
@@ -1952,8 +1963,9 @@
             <l>ya tengo la víctima</l>
             <l>de mi cruel rigor.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">5.</head>
+            <head>5.</head>
             <l rend="indent">Un dia entré en el pesebre</l>
             <l>para mis borricos ver,</l>
             <l>y uno ví que me miraba</l>
@@ -1972,8 +1984,9 @@
             <l>que soy una burra</l>
             <l>como puede ver.</l>
           </lg>
+          
           <lg>
-            <head type="titulo_estrofa">6.</head>
+            <head>6.</head>
             <l rend="indent">Es el mundo una gran feria</l>
             <l>en donde sin distincion</l>
             <l>cada hombre es un borrico</l>
@@ -1992,14 +2005,16 @@
             <l>sólo de este mundo</l>
             <l>el oro es el dios.</l>
           </lg>
-          <p rend="cursiva">
-            <lb/>(Es propiedad de José Martinez.)</p>
+          
+          <p rend="cursiva"><lb/>(Es propiedad de José Martinez.)</p>
         </div>
+        
         <div type="colofon">
           <p>
             <lb/>Se halla de venta en la calle S. Antonio, 89, Barceloneta.— Asimismo se
             proporcionará la música, tanto para guitarra como para piano, á todos los que la
-            soliciten.<lb/>Imp de V. Berdós, San Simplicio del Regómir, 4.</p>
+            soliciten.<lb/>Imp de V. Berdós, San Simplicio del Regómir, 4.
+          </p>
         </div>
       </div>
     </body>

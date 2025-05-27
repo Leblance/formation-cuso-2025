@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_189">
   <teiHeader>
     <fileDesc>
@@ -112,7 +112,6 @@
             </acquisition>
           </history>
         </msDesc>
-        
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -152,12 +151,9 @@
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <graphic url="varios/Varios_189_1.jpg/full/200,/0/default.jpg"/>
-  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_189_1" type="page" cert="silver">
-      <graphic url="Varios_189_1/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_189_1.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_189_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1103,1384 1296,1445 1193,1463 1436,1463 1471,1498 1471,1610 1384,1680 394,1671 333,1627 324,1481 585,1463 561,1437 620,1437 666,1384 " source="Varios_189_1/324.0,1384.0,1147.0,296.0/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_189_1_BT223_1_LT183_1" type="CustomZone" subtype="none" points="868,1384 846,1384 824,1384 802,1384 780,1384 758,1384 736,1384 715,1384 693,1384 671,1384 671,1454 668,1485 826,1474 888,1481 969,1491 971,1491 973,1491 976,1491 997,1478 1000,1476 1098,1474 1101,1459 1098,1386 883,1384 868,1384 " source="Varios_189_1/668.0,1384.0,433.0,107.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_189_1_BT223_1_LT183_1_1" points="672,1456 1102,1461 "/>
@@ -307,7 +303,7 @@
       <zone xml:id="Varios_189_1_BT224_4" n="4" type="GraphicZone" subtype="illustration" points="1629,1373 96,1356 61,1180 61,403 70,280 131,262 1715,297 1715,1367 1668,1367 1668,1384 " source="Varios_189_1/61.0,262.0,1654.0,1122.0/full/0/default" corresp="GraphicZone:illustration"/>
     </surface>
     <surface xml:id="Varios_189_2" type="page" cert="silver">
-      <graphic url="Varios_189_2/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_189_2.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_189_2_BT227_1" n="1" type="MainZone" subtype="columns" points="709,314 609,595 675,777 626,915 700,1000 709,1089 626,1132 585,1248 634,1504 609,1775 709,1868 709,1932 618,2050 609,2246 494,2320 49,2296 57,82 90,57 609,66 651,279 " source="Varios_189_2/49.0,57.0,660.0,2263.0/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_189_2_BT227_1_LT182_1" type="DefaultLine" subtype="none" points="591,64 570,64 549,64 529,64 508,64 487,64 467,62 446,62 425,62 405,62 384,62 363,62 343,59 322,59 301,59 281,59 260,59 239,59 219,59 198,57 177,57 157,57 136,57 115,57 95,57 76,66 76,90 74,109 597,121 601,101 599,64 591,64 " source="Varios_189_2/74.0,57.0,527.0,64.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_189_2_BT227_1_LT182_1_1" points="76,90 601,101 " corresp="DefaultLine"/>
@@ -682,7 +678,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_189_3" type="page" cert="silver">
-      <graphic url="Varios_189_3/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_189_3.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_189_3_BT227_1" n="1" type="MainZone" subtype="columns" points="742,124 725,336 750,477 700,636 717,816 692,942 742,1304 684,1421 667,1562 742,1725 651,1810 642,1866 709,1992 750,2221 717,2296 618,2320 148,2312 140,115 173,66 330,57 684,57 742,124 " source="Varios_189_3/140.0,57.0,610.0,2263.0/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_189_3_BT227_1_LT182_1" type="DefaultLine" subtype="none" points="673,57 653,57 632,57 611,57 591,57 570,57 549,57 529,57 508,57 487,57 467,57 446,57 425,57 289,57 281,59 260,59 239,62 219,62 198,64 177,64 163,76 159,103 159,117 692,119 694,97 686,68 673,57 " source="Varios_189_3/159.0,57.0,535.0,62.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_189_3_BT227_1_LT182_1_1" points="159,103 694,97 " corresp="DefaultLine"/>
@@ -1057,7 +1053,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_189_4" type="page" cert="silver">
-      <graphic url="Varios_189_4/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_189_4.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_189_4_BT227_1" n="1" type="MainZone" subtype="columns" points="726,403 655,736 655,812 708,911 682,1025 708,1443 673,1671 726,2171 699,2197 149,2197 122,245 587,210 708,245 726,403 " source="Varios_189_4/122.0,210.0,604.0,1987.0/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_189_4_BT227_1_LT182_1" type="DefaultLine" subtype="none" points="666,232 644,225 638,223 353,225 337,227 315,230 293,232 271,232 250,234 228,236 206,238 184,238 162,240 151,240 140,265 140,286 668,293 671,265 668,232 666,232 " source="Varios_189_4/140.0,223.0,531.0,70.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_189_4_BT227_1_LT182_1_1" points="140,265 671,265 " corresp="DefaultLine"/>
@@ -1392,15 +1388,12 @@
   </sourceDoc>
   <text>
     <body>
-      <div>
-        <div>
 
-          <pb n="1" source="Varios_189_1.jpg" facs="varios/Varios_189_1.jpg"/>
+          <pb n="1" corresp="#Varios_189_1" source="Varios_189_1.jpg" facs="varios/Varios_189_1.jpg"/>
 
           <div>
-            <head type="primer_titulo">
-              <lb/>CONVERSACIÓ<lb/>EN QUE SIS CRIADAS<lb/>TREYAN A VENAL LA
-              CONDICIÓ DE SAS MESTRESSAS.</head>
+            <head><lb/>CONVERSACIÓ<lb/>EN QUE SIS CRIADAS<lb/>TREYAN A VENAL LA CONDICIÓ DE SAS MESTRESSAS.</head>
+            
             <l rend="indent">Un dia estant retirat</l>
             <l>en una part molt secreta,</l>
             <l>sens serne vist ni ohit,</l>
@@ -1434,7 +1427,7 @@
             <l>Al matí avans las cinch</l>
             <l>he de saltar del Ilit Ilesta :</l>
 
-            <pb n="2" source="Varios_189_2.jpg" facs="varios/Varios_189_2.jpg"/>
+            <pb n="2" corresp="#Varios_189_2" source="Varios_189_2.jpg" facs="varios/Varios_189_2.jpg"/>
 
             <l>si tardo un poch á vestirme ,</l>
             <l>si es que llesta no m' llevo,</l>
@@ -1529,7 +1522,7 @@
             <l>no hi estaria una hora</l>
             <l>ab tals paternostreras,</l>
 
-            <pb n="3" source="Varios_189_3.jpg" facs="varios/Varios_189_3.jpg"/>
+            <pb n="3" corresp="#Varios_189_3" source="Varios_189_3.jpg" facs="varios/Varios_189_3.jpg"/>
 
             <l>que apar que diuhen rosaris,</l>
             <l>y de baix en baix son pestas.</l>
@@ -1624,7 +1617,7 @@
             <l>li dura dos ó tres horas,</l>
             <l>y es tanta la sua pena,</l>
 
-            <pb n="4" source="Varios_189_4.jpg" facs="varios/Varios_189_4.jpg"/>
+            <pb n="4" corresp="#Varios_189_4" source="Varios_189_4.jpg" facs="varios/Varios_189_4.jpg"/>
 
             <l>que está com unas metzinas,</l>
             <l>de cólera se reventa.</l>
@@ -1705,14 +1698,13 @@
             <l>á Deu , estimada Elena,</l>
             <l>y despedintse la Antonia,</l>
             <l>doná fi la tal comedia.</l>
+            
             <trailer>FI.</trailer>
           </div>
+          
           <div type="colofon">
-            <p>
-              <hi rend="cursiva">Barcelona</hi>: Estampa dels Hereus de la V. Pla , carrer de la Princesa.</p>
+            <p><hi rend="cursiva">Barcelona</hi>: Estampa dels Hereus de la V. Pla , carrer de la Princesa.</p>
           </div>
-        </div>
-      </div>
     </body>
   </text>
 </TEI>

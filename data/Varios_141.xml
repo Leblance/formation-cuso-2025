@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_141">
   <teiHeader>
     <fileDesc>
@@ -112,7 +112,6 @@
             <acquisition/>
           </history>
         </msDesc>
-        
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -157,7 +156,7 @@
   </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_141_1" type="page" cert="silver">
-      <graphic url="Varios_141_1/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_141_1.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_141_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1471,1612 1506,1638 1498,1768 1533,1794 1006,1829 298,1803 333,1621 675,1603 " source="Varios_141_1/298,1603,1235,226/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_141_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="337,1787 335,1614 434,1605 436,1605 436,1605 436,1605 438,1605 438,1605 438,1605 440,1605 454,1614 460,1619 493,1614 528,1610 528,1610 530,1610 530,1610 532,1610 554,1614 581,1621 607,1614 651,1605 651,1605 651,1605 653,1605 653,1605 655,1605 695,1616 715,1621 726,1616 747,1605 747,1605 747,1605 750,1605 750,1605 752,1605 752,1605 752,1605 754,1605 754,1605 780,1616 791,1623 892,1623 899,1616 914,1605 914,1605 916,1605 916,1605 919,1605 919,1605 919,1605 921,1605 921,1605 921,1605 923,1605 923,1605 951,1619 956,1619 962,1619 1022,1608 1022,1608 1022,1608 1024,1608 1024,1608 1026,1608 1065,1619 1074,1621 1079,1619 1103,1605 1103,1605 1103,1605 1105,1605 1105,1605 1107,1605 1191,1605 1191,1605 1191,1605 1193,1605 1193,1605 1193,1605 1223,1621 1226,1623 1478,1623 1478,1787 1480,1803 1449,1818 1449,1818 1449,1818 1447,1818 1447,1818 1447,1818 1445,1818 1445,1818 1443,1818 1443,1818 1408,1805 1386,1820 1384,1820 1384,1820 1384,1820 1381,1820 1381,1820 1379,1820 1379,1820 1379,1820 1377,1820 1377,1820 1377,1820 1375,1820 1375,1820 1375,1818 1362,1805 1329,1820 1329,1820 1327,1820 1327,1820 1327,1820 1324,1820 1324,1820 1324,1820 1322,1820 1322,1820 1291,1807 1280,1818 1280,1820 1280,1820 1278,1820 1278,1820 1278,1820 1276,1820 1276,1820 1276,1822 1230,1822 1228,1820 1228,1820 1226,1820 1226,1820 1226,1820 1223,1820 1223,1818 1208,1807 1208,1805 1206,1807 1171,1820 1171,1820 1169,1820 1169,1820 1169,1822 1125,1822 1123,1820 1123,1820 1120,1820 1120,1820 1120,1820 1118,1820 1118,1820 1103,1807 1101,1805 1087,1807 1030,1820 1030,1820 1030,1822 971,1822 969,1820 969,1820 967,1820 967,1820 967,1820 965,1820 965,1820 965,1818 954,1809 949,1805 938,1809 914,1818 912,1818 912,1818 912,1818 910,1818 910,1818 908,1818 879,1809 862,1805 855,1811 846,1818 846,1820 846,1820 844,1820 844,1820 844,1820 842,1820 842,1820 842,1822 761,1822 758,1820 758,1820 756,1820 756,1820 756,1820 754,1820 754,1818 745,1811 736,1805 337,1816 " source="Varios_141_1/335,1605,1145,217/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_141_1_BT223_1_LT84_1_1" points="337,1787 1478,1787 "/>
@@ -170,7 +169,7 @@
       <zone xml:id="Varios_141_1_BT228_5" n="5" type="MarginTextZone" subtype="colophon" points="251,2326 251,2437 1518,2437 1518,2326 " source="Varios_141_1/251,2326,1267,111/full/0/default" corresp="MarginTextZone:colophon"/>
     </surface>
     <surface xml:id="Varios_141_2" type="page" cert="silver">
-      <graphic url="Varios_141_2/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_141_2.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_141_2_BT223_1" n="1" type="CustomZone" subtype="title" points="1524,1577 1585,1759 1533,1785 1120,1794 438,1785 386,1759 377,1603 421,1568 807,1551 " source="Varios_141_2/377,1551,1208,243/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_141_2_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="425,1735 432,1553 462,1575 526,1564 526,1564 528,1564 528,1564 528,1564 583,1575 603,1559 603,1559 603,1557 603,1557 605,1557 605,1557 607,1557 607,1557 607,1557 609,1557 609,1557 609,1557 611,1557 611,1557 614,1557 616,1559 647,1577 701,1564 704,1564 704,1564 706,1564 706,1564 706,1564 708,1564 747,1577 763,1564 765,1562 765,1559 765,1559 767,1559 767,1559 767,1559 769,1559 769,1559 772,1559 772,1559 772,1559 796,1564 862,1579 914,1568 958,1559 958,1559 960,1559 1127,1562 1127,1562 1127,1562 1129,1562 1169,1575 1182,1579 1191,1577 1228,1564 1230,1564 1230,1564 1230,1564 1232,1564 1232,1564 1366,1581 1368,1581 1370,1581 1390,1566 1390,1566 1392,1566 1392,1566 1394,1566 1394,1566 1394,1566 1397,1566 1397,1566 1399,1566 1399,1566 1399,1566 1401,1566 1401,1566 1401,1568 1414,1581 1539,1588 1537,1748 1537,1768 1476,1792 1476,1792 1473,1792 1473,1792 1471,1792 1471,1792 1471,1792 1469,1792 1469,1792 1467,1792 1467,1792 1467,1789 1443,1770 1333,1785 1333,1785 1331,1785 1331,1785 1329,1785 1329,1785 1329,1785 1327,1785 1300,1768 1265,1778 1263,1778 1263,1778 1263,1778 1261,1778 1261,1778 1261,1778 1259,1778 1259,1778 1239,1770 1219,1787 1219,1787 1217,1787 1217,1787 1217,1787 1215,1787 1215,1787 1212,1787 1212,1787 1212,1787 1210,1787 1210,1787 1210,1787 1180,1772 1133,1789 1133,1789 1131,1789 1131,1789 1129,1789 1129,1789 1129,1789 1127,1789 1127,1789 1127,1789 1125,1789 1125,1789 1125,1787 1103,1765 1074,1765 958,1787 958,1787 958,1789 798,1789 796,1787 721,1785 721,1785 721,1785 719,1785 719,1785 719,1785 717,1785 717,1785 688,1761 594,1783 594,1783 594,1783 592,1783 592,1783 590,1783 590,1783 590,1783 587,1783 587,1783 587,1781 563,1759 532,1759 478,1781 478,1781 475,1781 475,1781 475,1781 473,1781 473,1781 471,1781 471,1781 471,1781 418,1754 " source="Varios_141_2/418,1553,1121,239/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_141_2_BT223_1_LT84_1_1" points="425,1735 1537,1748 "/>
@@ -250,13 +249,11 @@
   </sourceDoc>
   <text>
     <body>
-      <div>
-
-        <pb n="1" source="Varios_141_1.jpg" facs="varios/Varios_141_1.jpg"/>
+        <pb n="1" corresp="#Varios_141_1" source="Varios_141_1.jpg" facs="varios/Varios_141_1.jpg"/>
 
         <div n="1">
-          <head type="primer_titulo" rend="negrita">
-            <lb/>ARROJO DE UN AMANTE</head>
+          <head rend="negrita"><lb/>ARROJO DE UN AMANTE</head>
+          
           <l rend="indent">Un antiguo castellano</l>
           <l>tuvo una hija tan bella,</l>
           <l>que mil se prendaron de ella</l>
@@ -273,17 +270,17 @@
           <l>un momento descuidada,</l>
           <l>se la llevó desmayada</l>
           <l>y con ella se casó.</l>
+          
           <div type="colofon">
-            <p>
-              <lb/>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
+            <p><lb/>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
           </div>
         </div>
+      
+        <pb n="2" corresp="#Varios_141_2" source="Varios_141_2.jpg" facs="varios/Varios_141_2.jpg"/>
+      
         <div n="2">
-
-          <pb n="2" source="Varios_141_2.jpg" facs="varios/Varios_141_2.jpg"/>
-
-          <head type="primer_titulo" rend="negrita">
-            <lb/>ROBO DE UNA HERMOSA</head>
+          <head rend="negrita"><lb/>ROBO DE UNA HERMOSA</head>
+          
           <l rend="indent">Un arrogante guerrero,</l>
           <l>por demás enamorado,</l>
           <l>una bella hija ha robado</l>
@@ -301,7 +298,6 @@
           <l>y el padre en su desconsuelo</l>
           <l>fallece de sentimiento.</l>
         </div>
-      </div>
     </body>
   </text>
 </TEI>

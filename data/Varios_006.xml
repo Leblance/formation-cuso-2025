@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_006">
   <teiHeader>
     <fileDesc>
@@ -43,8 +43,7 @@
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
-            <p>Otras impresiones: <ref target="Varios_212.xml">Varios_212</ref> y <ref target="Varios_457.xml">Varios_457</ref>
-            </p>
+            <p>Otras impresiones: <ref target="Varios_212.xml">Varios_212</ref> y <ref target="Varios_457.xml">Varios_457</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>El Abanico</publisher>
@@ -108,57 +107,51 @@
         </msDesc>
         <listPlace xml:base="https://www.wikidata.org/wiki/">
           <place n="3" corresp="Q80561">
-            <placeName key="Antioquía">Antioquía</placeName>
+            <placeName xml:id="Antioquía">Antioquía</placeName>
             <location>
               <geo>36.2025 36.1605555555555</geo>
             </location>
           </place>
           <place n="1" corresp="Q1524">
-            <placeName key="Atenas">Atenas</placeName>
+            <placeName xml:id="Atenas">Atenas</placeName>
             <location>
               <geo>37.9841666666667 23.7280555555556</geo>
             </location>
           </place>
           <place n="1" corresp="Q189901">
-            <placeName key="Argos">Argos</placeName>
+            <placeName xml:id="Argos">Argos</placeName>
             <location>
               <geo>37.6333333333333 22.7291666666667</geo>
             </location>
           </place>
           <place n="1" corresp="Q79">
-            <placeName key="Egipto">Egipto</placeName>
+            <placeName xml:id="Egipto">Egipto</placeName>
             <location>
               <geo>27 29</geo>
             </location>
           </place>
           <place n="1" corresp="Q104028">
-            <placeName key="Judea">Judea</placeName>
+            <placeName xml:id="Judea">Judea</placeName>
             <location>
               <geo>31.698889 35.306389</geo>
             </location>
           </place>
           <place n="1" corresp="Q209349">
-            <placeName key="Nicomedia">Nicomedia</placeName>
+            <placeName xml:id="Nicomedia">Nicomedia</placeName>
             <location>
               <geo>40.7625 29.9175</geo>
             </location>
           </place>
           <place n="1" corresp="Q220">
-            <placeName key="Roma">Roma</placeName>
+            <placeName xml:id="Roma">Roma</placeName>
             <location>
               <geo>41.893055555556 12.482777777778</geo>
             </location>
           </place>
           <place n="1" corresp="Q32579">
-            <placeName key="Frigia">Frigia</placeName>
+            <placeName xml:id="Frigia">Frigia</placeName>
             <location>
               <geo>39 31</geo>
-            </location>
-          </place>
-          <place n="1" corresp="Q84090">
-            <placeName key="Archibasílica_de_San_Juan_de_Letrán">Archibasílica De San Juan De Letrán</placeName>
-            <location>
-              <geo>41.885905555556 12.506155555556</geo>
             </location>
           </place>
         </listPlace>
@@ -167,9 +160,9 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+           Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
+           profesora Constance Carta de la Universidad de Ginebra, con el apoyo
+           de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
@@ -202,12 +195,9 @@
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <graphic url="varios/Varios_006_1.jpg/full/200,/0/default.jpg"/>
-  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_006_1" type="page" cert="silver">
-      <graphic url="Varios_006_1/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_006_1.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_006_1_BT223_1" n="1" type="CustomZone" subtype="title" points="87,1925 101,1715 358,1715 358,1700 563,1700 563,1641 358,1641 358,1514 1201,1507 1376,1510 1376,1650 1188,1650 1188,1703 1376,1703 1376,1712 1608,1712 1608,1917 " source="Varios_006_1/87,1507,1521,418/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_006_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="410,1612 405,1522 980,1527 997,1522 1035,1509 1037,1509 1037,1509 1037,1509 1039,1509 1355,1522 1359,1605 1359,1636 1177,1638 1175,1638 1175,1638 1173,1638 1173,1638 1173,1638 1169,1636 1142,1625 1070,1636 1041,1640 1041,1640 1039,1640 1039,1640 1039,1640 1037,1640 1037,1640 1026,1636 1002,1627 947,1627 932,1636 927,1640 925,1640 925,1640 925,1640 923,1640 923,1640 923,1640 921,1640 921,1640 919,1640 919,1640 908,1636 883,1627 857,1636 842,1640 840,1640 840,1640 840,1640 837,1640 837,1640 835,1640 835,1640 835,1640 833,1640 833,1640 829,1636 815,1627 765,1636 719,1643 719,1643 717,1643 407,1634 " source="Varios_006_1/405,1509,954,134/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_006_1_BT223_1_LT84_1_1" points="410,1612 1359,1605 "/>
@@ -292,7 +282,7 @@
       <zone xml:id="Varios_006_1_BT226_4" n="4" type="MainZone" subtype="none" points="129,2399 102,2372 105,2311 114,2024 111,2004 113,1982 185,1982 185,1940 324,1936 689,1932 689,2020 610,2020 610,2093 663,2093 663,2208 625,2208 625,2278 654,2278 654,2412 " source="Varios_006_1/102,1932,587,480/full/0/default" corresp="MainZone"/>
     </surface>
     <surface xml:id="Varios_006_2" type="page" cert="silver">
-      <graphic url="Varios_006_2/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_006_2.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_006_2_BT227_1" n="1" type="MainZone" subtype="columns" points="750,279 791,338 786,480 675,480 675,930 770,930 766,1058 767,1075 659,1075 659,1348 779,1348 784,1473 667,1473 667,1570 788,1570 791,1636 766,1733 791,1857 780,2000 695,2000 695,2098 657,2098 657,2297 198,2304 90,2271 82,181 132,115 700,124 733,148 " source="Varios_006_2/82,115,709,2189/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_006_2_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="165,167 169,95 208,117 574,99 576,171 572,186 161,183 " source="Varios_006_2/161,95,415,91/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_006_2_BT227_1_LT83_1_1" points="165,167 576,171 " corresp="DefaultLine"/>
@@ -619,7 +609,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_006_3" type="page" cert="silver">
-      <graphic url="Varios_006_3/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_006_3.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_006_3_BT227_1" n="1" type="MainZone" subtype="columns" points="750,221 800,347 824,586 808,915 833,1091 800,2263 766,2287 157,2287 133,2254 124,165 181,107 675,107 766,140 " source="Varios_006_3/124,107,709,2180/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_006_3_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="208,157 212,95 233,107 355,101 421,97 423,97 425,97 427,97 438,103 448,109 481,105 525,99 527,99 638,111 638,161 636,175 206,175 " source="Varios_006_3/206,95,432,80/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_006_3_BT227_1_LT83_1_1" points="208,157 638,161 " corresp="DefaultLine"/>
@@ -946,7 +936,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_006_4" type="page" cert="silver">
-      <graphic url="Varios_006_4/full/full/0/default.jpg"/>
+      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_006_4.jpg/full/max/0/default.jpg"/>
       <zone xml:id="Varios_006_4_BT227_1" n="1" type="MainZone" subtype="columns" points="921,1160 785,1160 785,1260 846,1260 846,1378 733,1378 733,1485 807,1485 807,1607 915,1607 920,1808 804,1808 804,1920 829,1920 829,2165 241,2165 219,2127 219,446 228,245 263,210 743,217 743,282 780,282 780,419 932,419 921,529 790,529 790,710 733,710 733,825 812,825 812,823 868,823 868,957 931,957 " source="Varios_006_4/219,210,713,1955/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_006_4_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="309,249 311,186 344,199 364,190 364,190 364,190 366,190 366,190 368,190 368,190 368,190 370,190 370,190 370,190 372,190 372,190 372,192 375,192 383,203 414,188 423,184 423,184 423,184 425,184 425,184 427,184 475,184 475,184 475,184 478,184 478,184 478,184 480,184 486,188 511,205 568,190 572,190 574,190 574,190 576,190 576,190 576,190 579,190 579,190 579,190 581,190 581,190 581,190 581,192 596,205 706,194 710,254 708,269 550,280 548,280 304,265 " source="Varios_006_4/304,184,406,96/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_006_4_BT227_1_LT83_1_1" points="309,249 710,254 " corresp="DefaultLine"/>
@@ -1266,19 +1256,16 @@
   </sourceDoc>
   <text>
     <body>
-      <div>
         <div>
 
-          <pb n="1" source="Varios_006_1.jpg" facs="varios/Varios_006_1.jpg"/>
+          <pb n="1" corresp="#Varios_006_1" source="Varios_006_1.jpg" facs="varios/Varios_006_1.jpg"/>
 
-          <head type="primer_titulo">
-            <hi rend="negrita">
-              <lb/>VIDA Y MARTIRIO</hi>
-            <lb/>DE LOS
-                                          GLORIOSOS<hi rend="negrita">
-              <lb/>SAN CIPRIANO Y SANTA
-                                          JUSTINA</hi>
+          <head>
+            <hi rend="negrita"><lb/>VIDA Y MARTIRIO</hi>
+            <lb/>DE LOS GLORIOSOS
+            <hi rend="negrita"><lb/>SAN CIPRIANO Y SANTA JUSTINA</hi>
           </head>
+          
           <lg>
             <l rend="indent">En nombre de Jesucristo</l>
             <l>la vida de san Cipriano</l>
@@ -1287,7 +1274,7 @@
           </lg>
           <lg>
             <l rend="indent">Corria el siglo tercero,</l>
-            <l>y nació en Antioquía</l>
+            <l>y nació en <name corresp="#Antioquía">Antioquía</name></l>
             <l>de padres ricos Cipriano,</l>
             <l>muy dados á la idolatría.</l>
           </lg>
@@ -1304,7 +1291,7 @@
             <l>fué á países extranjeros.</l>
           </lg>
 
-          <pb n="2" source="Varios_006_2.jpg" facs="varios/Varios_006_2.jpg"/>
+          <pb n="2" corresp="#Varios_006_2" source="Varios_006_2.jpg" facs="varios/Varios_006_2.jpg"/>
 
           <lg>
             <l rend="indent">Fino y hábil agorero,</l>
@@ -1313,10 +1300,10 @@
             <l>á presidir sacrificios.</l>
           </lg>
           <lg>
-            <l rend="indent">Pasó <name>Atenas</name>, después á <name>Argos</name>,</l>
-            <l>visitó también la <name>Frigia</name>,</l>
-            <l>no descuidando el <name>Egipto</name>,</l>
-            <l>y llegando hasta la <name>Iudia</name>.</l>
+            <l rend="indent">Pasó <name corresp="#Atenas">Atenas</name>, después á <name corresp="#Argos">Argos</name>,</l>
+            <l>visitó también la <name corresp="#Frigia">Frigia</name>,</l>
+            <l>no descuidando el <name corresp="#Egipto">Egipto</name>,</l>
+            <l>y llegando hasta la <name corresp="#Judea">Iudia</name>.</l>
           </lg>
           <lg>
             <l rend="indent">En la magia consumado,</l>
@@ -1332,7 +1319,7 @@
           </lg>
           <lg>
             <l rend="indent">Hinchado de innoble orgullo,</l>
-            <l>al volver á Antioquía,</l>
+            <l>al volver á <name corresp="#Antioquía">Antioquía</name>,</l>
             <l>ejerció sus malas artes</l>
             <l>con descaro y osadía.</l>
           </lg>
@@ -1351,7 +1338,7 @@
           <lg>
             <l rend="indent">Por aquel tiempo una joven,</l>
             <l>de belleza peregrina,</l>
-            <l>Antioquía habitaba,</l>
+            <l><name corresp="#Antioquía">Antioquía</name> habitaba,</l>
             <l>y su nombre era Justina.</l>
           </lg>
           <lg>
@@ -1427,7 +1414,7 @@
             <l>y crueles golpes le daban.</l>
           </lg>
 
-          <pb n="3" source="Varios_006_3.jpg" facs="varios/Varios_006_3.jpg"/>
+          <pb n="3" corresp="#Varios_006_3" source="Varios_006_3.jpg" facs="varios/Varios_006_3.jpg"/>
 
           <lg>
             <l rend="indent">Mas la joven animosa,</l>
@@ -1550,7 +1537,7 @@
             <l>á ser obispo llegó.</l>
           </lg>
 
-          <pb n="4" source="Varios_006_4.jpg" facs="varios/Varios_006_4.jpg"/>
+          <pb n="4" corresp="#Varios_006_4" source="Varios_006_4.jpg" facs="varios/Varios_006_4.jpg"/>
 
           <lg>
             <l rend="indent">Tanto la fama creció</l>
@@ -1559,7 +1546,7 @@
             <l>que lo supo Diocleciano.</l>
           </lg>
           <lg>
-            <l rend="indent">Y aunque se halla en <name>Nicomedia</name></l>
+            <l rend="indent">Y aunque se halla en <name corresp="#Nicomedia">Nicomedia</name></l>
             <l>manda furioso prenderlos,</l>
             <l>y al tribunal conducirlos</l>
             <l>por ver si podrá vencerlos.</l>
@@ -1621,7 +1608,7 @@
           <lg>
             <l rend="indent">Salió vana su malicia,</l>
             <l>que los cristianos con maña</l>
-            <l>á <name>Roma</name> los remitieron</l>
+            <l>á <name corresp="#Roma">Roma</name> los remitieron</l>
             <l>por librarlos de su saña.</l>
           </lg>
           <lg>
@@ -1661,18 +1648,20 @@
             <l>aquellos cuerpos sagrados.</l>
           </lg>
         </div>
+        
         <div type="productos_a_la_venta">
           <p>
             <lb/>En la misma casa se halla de venta la verdadera Oración de
-                                    San Ci¬ <lb/>priano y de Santa Justina; única y la más
-                                    verdadera para hallar alivio <lb/>en sus penalidades cuantos
-                                    devotos de buena fe se inspiren en ella.</p>
+                 San Ci¬ <lb/>priano y de Santa Justina; única y la más
+                 verdadera para hallar alivio <lb/>en sus penalidades cuantos
+                 devotos de buena fe se inspiren en ella.
+          </p>
         </div>
+        
         <div type="colofon">
           <p>
             <lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>
-      </div>
     </body>
   </text>
 </TEI>
