@@ -14,12 +14,12 @@ XQuery permet d'interroger une base de données XML, de la même façon que SQL 
 - **R**eturn : Affichage du résultat
 
 ## Let et Return
-La déclaration d'une variable se fait avec le mot-clé **let**, suivi de **:=** et de la valeur de la variable (avec une expression XPath).
-Le mot-clé **return** indique le résultat à afficher : il est obligatoire pour que l'expression soit valide et bien formée. Les variables reprises dans return doivent être précédées du symbole **$**.
+La déclaration d'une variable se fait avec le mot-clé **let**, suivi du nom de la variable (précédée de **$**), de **:=** et de la valeur de la variable (avec une expression XPath).
+Le mot-clé **return** indique le résultat à afficher : il est obligatoire pour que l'expression soit valide et bien formée.
 
 Exemple 1 :
 ```
-let NumberF := count(//person[@sex="2"])
+let $NumberF := count(//person[@sex="2"])
 
 return $NumberF
 ```
@@ -27,8 +27,8 @@ return $NumberF
 
 Exemple 2 :
 ```
-let NumberF := count(//person[@sex="2"])
-let NumberH := count(//person[@sex="1"])
+let $NumberF := count(//person[@sex="2"])
+let $NumberH := count(//person[@sex="1"])
 
 return
     <ul>
