@@ -31,5 +31,58 @@ Une page se compose de plusieurs "blocs" qui communiquement les uns avec les aut
 declare variable $config:default-template :="cuso.html";
 ```
 
+### 4.2. Afficher des métadonnées
 
+- Dans le template de page, ajouter un nouvel élément &lt;pb-view&gt; sur le modèle suivant :
+```
+<pb-view view="single" src="document1" subscribe="transcription" xpath="//teiHeader/fileDesc/sourceDesc" id="metadata">
+    <pb-param name="view" value="metadata"/>
+</pb-view>
+```
+- Dans le même template, ajouter la règle CSS suivante :
+```
+#metadata {
+    flex: 1 1; 
+}
+```
+- Dans votre ODD, créer un modelSequence pour l'élément &lt;sourceDesc&gt; avec les attributs suivants :
+    - @predicate : ```$parameters?view='metadata'```
+        - Ce prédicat est un paramètre externe (*external parameter*), qui permet de contrôler l'affichage d'une partie d'un fichier, en faisant appel à une fonction XQuery externe à l'ODD. Pour en savoir plus sur les paramètres externes et leurs potentialités, voir la [documentation](https://teipublisher.com/exist/apps/tei-publisher/documentation/external-parameters?odd=docbook.odd&id=introduction).
+    - @output : web
+- Dans ce modelSequence, ajouter un premier model pour afficher le titre :
+    - @behaviour : block
+    -  &lt;param&gt; : @name = content ; @value = ```.//title[@type="titulo_completo"]```
+- Enrichir ce model avec un label précisant, sur le site, le type d'information :
+    - Dans la champ 'Template' de l'éditeur d'ODD, ajouter ce code HTML : ```<span class="metadata_label">Titre : </span><span>[[content]]</span>```
+        - NB : Dans votre ODD, ces informations apparaissent dans un élément &lt;pb-template&gt;. C'est un ajout de TEI-Publisher. Il permet d'étendre les comportements par défaut. Il est possible de définir des paramètres supplémentaires à ajouter dans le template. Ces paramètres apparaitront entre des doubles crochets. Ex: &lt;p&gt;[[content]]&lt;/p&gt;
+    - Modifier la CSS de l'ODD pour faire apparaître le label en gras. 
+- Ajouter un nouveau model au modelSequence de &lt;sourceDesc&gt; pour faire apparaître des informations sur la publication de l'imprimé :
+    - @behviour : block
+    - &lt;param&gt; :
+        - @name = publisher ; @value = ```.//publisher```
+        - @name = place ; @value = ```.//pubPlace```
+        - @name = date ; @value = ```.//date```
+    - &lt;pb-template&gt; : ```<span class="metadata_label">Imprint : </span><span>[[place]], [[publisher]], [[date]]</span>```
 
+### 4.3. Afficher des infobulles pour les noms de lieux
+- Dans l'éditeur d'ODD, modifier le @behaviour de l'élément &lt;name&gt; en 'alternate' ;
+- Supprimer les anciens paramètres et ajouter les suivants :
+    - @name = default ; @value = ```.```
+    - @name = alternate ; @value =
+```
+let $corresp := substring-after(@corresp, "#")
+let $index := doc('/db/apps/test-cuso/data/registers/places.xml')
+let $xml-base := $index//listPlace/@xml:base 
+let $id := $index//listPlace//placeName/@xml:id  
+return if($corresp = $id)   
+then $index//placeName[@xml:id=$corresp]/following-sibling::desc
+else '#'
+```
+
+- Modifier la feuille de style de l'ODD :
+
+```.link-place {
+    color: #86187a;
+    text-decoration: underline dotted;
+    cursor: help;
+}```
