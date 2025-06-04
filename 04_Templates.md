@@ -80,9 +80,10 @@ else '#'
 ```
 
 - Modifier la feuille de style de l'ODD :
-
-```.link-place {
+```
+.link-place {
     color: #86187a;
     text-decoration: underline dotted;
     cursor: help;
-}```
+}
+```
