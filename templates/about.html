@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+        
+        <title data-template="config:app-title"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <style>
+            .static-page {
+                width: 80%;
+                margin: 0 auto;
+            }
+            
+            .static-page_imgRight {
+                margin-left: 1%;
+                float: right;
+            }
+        </style>
+    </head>
+        
+        <body unresolved="unresolved">
+            <pb-page data-template="pages:pb-page" unresolved="unresolved">
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                    </app-header>
+                    
+                    <main class="static-page">
+                        <section>
+                            <h1>À propos</h1>
+                            <h2>Titre 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor ligula at enim congue luctus. Maecenas tempus dui finibus justo vulputate tempus. In rhoncus nibh velit. Curabitur vulputate eros quis tempor faucibus. Nam semper nisi a venenatis ultricies. Mauris vel sollicitudin tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam ipsum massa, dapibus sed diam non, laoreet tempor sem. Nullam enim massa, lacinia at tortor at, sollicitudin condimentum felis. Quisque gravida, odio ac maximus luctus, dui lacus aliquet tellus, et semper urna lacus sed mi. Praesent iaculis tincidunt turpis. Nunc id tellus non tellus luctus efficitur a eu massa. Curabitur ultricies orci sagittis urna fermentum, eget vestibulum enim suscipit. Phasellus nec feugiat mi, pulvinar suscipit augue.</p>
+                            
+                            <h2>Titre 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas odio eget mi auctor facilisis. Donec a euismod sem. Nam eget enim in ante porttitor dignissim. Donec fringilla lectus sed enim egestas rhoncus. Aenean porttitor eros sit amet leo molestie ultrices. Vivamus a justo congue, aliquam eros sed, mollis purus. Nullam condimentum volutpat finibus. Vivamus a tempor ligula, quis pharetra purus. Praesent laoreet sollicitudin lectus, eu molestie nisl dictum vel. Integer dapibus sollicitudin nunc ac cursus. Sed ornare auctor diam. Nam rutrum neque ipsum, in varius lorem sollicitudin in. Etiam vitae libero justo. Nam laoreet ornare arcu, ut finibus tellus condimentum id.</p>
+                            <p>Curabitur dui enim, finibus eu felis fermentum, fermentum vulputate arcu. Donec cursus vehicula commodo. Curabitur dapibus metus justo, blandit consectetur enim fringilla vel. Proin sagittis ante lorem, ac semper urna hendrerit sed. Pellentesque lobortis lobortis quam non ullamcorper. Cras malesuada tincidunt ipsum, in laoreet quam molestie non. Phasellus sit amet justo urna. Vivamus odio purus, rutrum eget massa id, sodales vulputate velit.</p>
+                        
+                            <h2>Titre 3</h2>
+                            <img class="static-page_imgRight" src="resources/images/demon.png" width="200"/>
+                            <p>Maecenas gravida eros ac convallis euismod. Sed facilisis velit non augue efficitur eleifend. Suspendisse tempus sapien quis lobortis aliquam. Aenean molestie nunc eget mi vestibulum luctus. In iaculis ut nisl a ornare. Proin consequat at risus at sodales. Cras sollicitudin porttitor porta. In consequat pretium urna et lobortis. Proin laoreet massa id velit accumsan lacinia. Fusce nibh mi, posuere sit amet lectus et, pretium porta arcu. Morbi a lobortis odio. Aenean non metus a arcu condimentum vehicula a at neque. Morbi eu turpis id sapien egestas faucibus id eget nisi.</p>
+                            
+                            <h2>Titre 4</h2>
+                            <p>Fusce lobortis elit at turpis sollicitudin laoreet. Donec at posuere est. Praesent fringilla est eu massa porta ullamcorper. Ut sed rutrum lacus, hendrerit interdum est. Curabitur imperdiet convallis porttitor. Cras ac finibus ante, tincidunt congue justo. Sed elit ante, cursus a dignissim et, feugiat non lacus. Cras egestas posuere mollis. Cras efficitur orci a tempor sodales. Morbi placerat varius justo, in commodo felis dignissim ac. Ut pellentesque mi ligula, ac aliquet neque condimentum eget. Integer sollicitudin, nunc et fermentum condimentum, magna turpis posuere justo, nec auctor mauris est fringilla risus. Aenean luctus, arcu nec ultricies mattis, ipsum turpis tincidunt nunc, non molestie tellus nunc in purus. Morbi vestibulum neque erat, at consectetur lectus vehicula ut. Aliquam in egestas ante, sed volutpat mi. Pellentesque urna turpis, vulputate a faucibus id, suscipit eu augue.</p>
+                            
+                        </section>
+                    </main>
+                    <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+                </app-header-layout>
+            </pb-page>
+        </body>
+</html>

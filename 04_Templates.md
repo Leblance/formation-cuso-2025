@@ -87,3 +87,45 @@ else '#'
     cursor: help;
 }
 ```
+
+### 4.4. Les options d'export
+Objectif : Ajouter des options de téléchargement dans la barre d'outils du template de page.
+
+- Copier/coller l'onglet de téléchargement de menu.html vers toolbar.html ;
+- Nettoyer les fichiers pour retirer les options inutiles et les informations redondantes ;
+- Dans toolbar.html, à la place du label "download", ajouter l'élement suivant pour afficher une icône de téléchargement :
+```
+<paper-icon-button icon="icons:file-download"/>
+```
+
+- Certains label n'ont pas encore de traductions (par exemple "Print CSS"). Pour ajouter des traductions personnalisées :
+    - Dans le fichier ```resources/i18n/languages.json```, retirer les langues non-nécessaires ;
+    - Dans le dossier ```resources/i18n/app```, créer un nouveau fichier appelé ```fr.json``` ;
+    - Dans votre template de page, ajouter l'attribut ```locales="resources/i18n/{{ns}}/{{lng}}.json"``` à l'élément &lt;pb-page&gt; ;
+    - Dans les fichiers en.js et fr.js, ajouter une nouvelle clé pour traduire le mot "Print" ;
+    - Dans toolbar.html, ajouter un élément &lt;pb-i18n&gt; à la place du label "Print CSS".
+
+### 4.5. Créer un nouveau template
+**Cas 1 : Les templates "intégrés"**
+
+- Dans le dossier ```templates```, importer le fichier footer.html ;
+- Dans le dossier ```resources/images```, créer un nouveau dossier appelé "logos" et importer les logos d'e-editiones et de l'Université de Genève ;
+- Dans index.html, à la place du footer par défaut, ajouter cette ligne :
+```
+<footer data-template="templates:include" data-template-path="templates/footer.html"/>
+```
+
+**Cas 2 : Les pages statiques**
+
+- Dans le dossier ```templates```, importer le fichier about.html ;
+- Dans le dossier ```resources/images```, importer l'image demon.png ;
+- Ajouter un nouvel onglet "À propos" dans le menu de navigation.
+
+
+
+
+
+
+
+
+
