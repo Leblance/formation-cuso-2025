@@ -51,9 +51,31 @@ else '#'
 ```
 Point sur trois fonctions natives de XQuery :
 
-- **fn:doc** : Spécifie l'URL d'un document à retourner
+- **fn:doc** : Spécifie l'URL d'un document à retourner.
 - **fn:substring-after** : Extrait la portion d'une chaîne de caractères ($arg1) qui se trouve après le caractère spécifié ($arg2).
-- **fn:concat** : Concatène plusieurs chaînes de caractères (séparés par des virgules). Peut être remplacé par deux barres verticales (**||**)
+- **fn:concat** : Concatène plusieurs chaînes de caractères (séparés par des virgules). Peut être remplacé par deux barres verticales (**||**).
 
 Pour en savoir plus sur l'ensemble des fonctions disponibles : [https://datypic.com/xq/](https://datypic.com/xq/)
+
+## Les boucles for
+Pour parcourir plusieurs éléments, XQuery utilise le mot-clé **for**.
+
+Exemple 1 :
+```
+for $role in //tei:roleName
+    return $role
+```
+
+Exemple 2 :
+```
+for $bishop in //tei:person[contains(., "bishop")]
+    return <bishop>
+                {$bishop//tei:persName/concat(tei:forename, ' ', tei:surname)}
+           </bishop>                
+```
+
+Point fonction native :
+
+- fn:contains : Affiche les éléments ($arg1) qui contiennent la chaîne de caractères recherchée ($arg2).
+
 
