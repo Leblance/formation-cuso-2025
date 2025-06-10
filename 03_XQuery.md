@@ -74,8 +74,37 @@ for $bishop in //tei:person[contains(., "bishop")]
            </bishop>                
 ```
 
-Point fonction native :
+Fonction native de XQuery :
 
 - fn:contains : Affiche les éléments ($arg1) qui contiennent la chaîne de caractères recherchée ($arg2).
 
+## Order by et Where
+**Order by** permet de classer les résultats dans l'order ascendant/descandant. Par défaut, l'ordre est ascendant. Pour indiquer son contraire, il faut ajouter le mot-clé "descending".
+**Where** ajoute une condition supplémentaire sur les résultats retournés.
 
+Exemple 1 :
+```
+for $oeuvre in //tei:div[@type="WorksByCraik"]//tei:bibl
+    let $datePub := $oeuvre/tei:date/@when
+    order by $datePub
+    return if ($datePub) then (
+      <p>
+        <title>{string-join($oeuvre/tei:title, ', ')}</titre>, 
+        <date>{string-join($datePub, ' ')}</date>
+      </p>
+    )
+    else() 
+```
+
+Exemple 2 :
+```
+for $F in //tei:div[@type="HistoricalPeople"]//tei:person[@sex="F"]
+    where $F/tei:occupation[matches(.,"[Dd]octor")]
+    let $name := $F/tei:persName
+    return $name
+```
+
+Fonctions native de XQuery :
+
+- fn:string-join : Concatène une séquence de caractères ($arg1) en indiquant un séparateur ($arg2).
+- fn:matches : Permet de rechercher une chaîne de caractères ($input) à l'aide d'une expression régulière ($pattern).
