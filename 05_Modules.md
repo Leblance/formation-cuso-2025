@@ -30,14 +30,13 @@ Méthode 2 : &lt;pb-tify&gt; ([Documentation](https://cdn.tei-publisher.com/@2.2
         - emit : ```'transcription'```
         - emit-on-load : ```'emit-on-load'```
         - order : ```count($get(.)/preceding::pb) + 1```
-- Dans ```/modules/iiif-config.xqm``` :
-    - Modifier la ligne 14 :
+- Dans ```/modules/iiif-config.xqm```, modifier la ligne 14 :
     
 ```
 declare variable $iiifc:IMAGE_API_BASE := "https://iiif.hedera.unige.ch/iiif/3/pliegos";
 ```
 
-    - Modifier la ligne 34 pour récupérer les liens des images dans &lt;sourceDoc&gt; :
+- Toujours dans le même fichier, modifier la ligne 34 pour récupérer les liens des images dans &lt;sourceDoc&gt; :
 ```
 declare function iiifc:milestone-id($milestone as element()) {
     let $corresp := $milestone/@corresp
@@ -53,3 +52,38 @@ declare function iiifc:milestone-id($milestone as element()) {
 };
 ```
 
+## 2. Les fonctionnalités de recherche
+Trois fichiers à connaître :
+
+- collection.xconf (Lucene Apache): Défini des règles d'indexation (plein-texte, filtres et facettes)
+- index.xql : Fonctions qui indiquent le chemin vers les données à traiter dans les filtres et les facettes
+- config.xqm : Paramètrage de l'affichage des facettes sur le site (variable ```$config:facets```)
+
+Exemple 1 : Ajouter une facette pour les lieux de publication
+
+- Dans index.xql, modifier les règles pour la dimension "place" :
+```
+case "place" return
+    ($root//tei:pubPlace)
+```
+- Dans config.xqm, ajouter une nouvelle map pour la dimension "place" :
+```
+map {
+        "dimension": "place",
+        "heading": "Place",
+        "max": 5,
+        "hierarchical": false()
+    },
+```
+
+- Dans collection.xconf, ajouter un nouvel élément &lt;facet&gt; :
+```
+<facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+```
+
+- Dans en.json et fr.json, ajouter une nouvelle clé pour traduire le label de la nouvelle facette : "Place" et "Lieu"
+- Dans config.xqm, modifier la valeur de la clé "heading" pour les lieux : ```facets.place```
+- Toujours dans config.xqm, modifier la map pour l'affichage de la facette "language" : enlever les informations inutiles, ajouter le catalan et traduire le label "Espagnol".
+- À votre tour : ajouter trois nouvelles facettes pour les dates, les imprimeurs et les types de texte.
+
+Le fichier ```modules/facets.xql``` contient un ensemble de fonctions qui gère le fonctionnement et l'affichage des facettes. Par exemple, la fonction ```facet:sort``` vous permet de changer l'ordre dans lequel sont classées les items de chaque facette.
