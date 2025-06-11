@@ -1,4 +1,6 @@
 # Modules et fonctions
+Les modules XQuery permettent de traiter les données TEI et de les afficher sur le site : résultats de recherche, facettes, filtres, etc. Ils assurent le fonctionnement de votre application. Pour rappel, les fichiers à la racine du dossier ```/modules``` peuvent être modifiés sans risque. Il est toutefois déconseillé de modifier les fichiers du dossier ```/lib```.
+
 ## 1. Afficher des images
 Méthode 1 : &lt;pb-facsimile&gt; ([Documentation](https://cdn.tei-publisher.com/@2.23.2/dist/api.html#pb-facsimile.0))
 
@@ -87,3 +89,14 @@ map {
 - À votre tour : ajouter trois nouvelles facettes pour les dates, les imprimeurs et les types de texte.
 
 Le fichier ```modules/facets.xql``` contient un ensemble de fonctions qui gère le fonctionnement et l'affichage des facettes. Par exemple, la fonction ```facet:sort``` vous permet de changer l'ordre dans lequel sont classées les items de chaque facette.
+
+## 3. TEI-Publisher API
+Les webcomponents communiquent avec le serveur pour afficher les données dont ils ont besoin. Depuis la version 7, la communication avec le serveur passe par une API. Elle définit plusieurs *endpoints* pour afficher les documents, les résultats de recherche ou, plus récemment, les manifestes IIIF ; pour gérer l'ODD ; etc. Cette API est accessible depuis le menu de navigation : "Fonctions avancées > API". Il est possible de la personnaliser et d'ajouter de nouveaux endpoints, en modifiant deux fichiers :
+
+- ```custom-api.json``` : Spécifications des endpoints ;
+- ```custon-api.xql``` : Modules XQuery pour traiter les requêtes.
+
+Exemples utiles :
+
+- Création d'index et de cartes, réécriture d'URL : [FAQ de TEI-Publisher](https://faq.teipublisher.com/api/)
+- Création d'index : [Damen Conversation Lexikon](https://github.com/eeditiones/tei-publisher-app/blob/master/modules/custom-api.json)
