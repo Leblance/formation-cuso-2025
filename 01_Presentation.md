@@ -26,7 +26,7 @@ NB : Sur le site de l'association e-editiones, vous trouverez un [registre](http
 ## 3. Création d'une application
 
 1. Ouvrir l'application TEI-Publisher depuis le tableau de bord d'eXist-DB.
-    - eXist-DB est une base de données XML (NoSQL), où chaque élément devient une entrée dans votre base de données. Il permet d'interroger vos données et de les afficher avec le langague XQuery. eXist est aussi un "application server support", qui permet de créer ses propres applications/sites web.
+    - eXist-DB est une base de données XML (NoSQL), où chaque élément devient une entrée dans votre base de données. Il permet d'interroger vos données et de les afficher avec le langague XQuery. eXist est aussi un *application server support*, qui permet de créer ses propres applications/sites web.
     - TEI-Publisher est une application d'eXist-DB. L'instance que vous installez est un espace de test et de génération de votre propre application.
 1. Se connecter en mode démo (Login : tei-demo / mot de passe : demo).
 1. Cliquer sur "Aire de jeu" (ou "Playground").
@@ -62,5 +62,5 @@ Depuis Exide ou Oxygen, vous constaterez que le dossier "apps" de votre base de 
 - templates : Gabarits de vos pages HTML ;
     - À la racine : Gabarits généraux pour le menu, l'index, la page des résultats de recherche, etc.
     - Dans le dossier "pages" : Gabarits pour les éditions.
-- transform : Feuilles XSLT (générées automatiquement) ;
-- Fichiers à la racine de votre app peuvent être modifiés. Ceux que vous serez les plus susceptibles de modifier sont collection.xconf, index.xql et controller.xql.
+- transform : Scripts XQuery pour la transformation des fichiers TEI en d'autres formats (générées automatiquement) ;
+- Les fichiers à la racine de votre app peuvent être modifiés. Ceux que vous serez les plus susceptibles de modifier sont collection.xconf, index.xql et controller.xql.

@@ -57,7 +57,7 @@ declare function iiifc:milestone-id($milestone as element()) {
 ## 2. Les fonctionnalités de recherche
 Trois fichiers à connaître :
 
-- collection.xconf (Lucene Apache): Défini des règles d'indexation (plein-texte, filtres et facettes)
+- collection.xconf (Lucene Apache): Définit des règles d'indexation (plein-texte, filtres et facettes)
 - index.xql : Fonctions qui indiquent le chemin vers les données à traiter dans les filtres et les facettes
 - config.xqm : Paramètrage de l'affichage des facettes sur le site (variable ```$config:facets```)
 

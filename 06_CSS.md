@@ -2,7 +2,7 @@
 
 TEI-Publisher s'accompagne de plusieurs feuilles de styles pour mettre en page différents aspects du site :
 
-- ```/resources/css/theme.css``` : Feuille de style générale (mise en page général du site : menu de navigation, toolbar, drawer, etc.).
+- ```/resources/css/theme.css``` : Feuille de style générale (mise en page du site : menu de navigation, toolbar, drawer, etc.).
     - Il est déconseillé de modifier directement cette feuille de style, mais plutôt de la dupliquer pour créer votre propre thème personnalisé.
 - ```/resources/css/epub.css``` : Propriétés CSS pour mettre en page les exports en ePub.
 - ```/resources/css/print.css``` : Propriétés CSS pour la mise en page de l'output "Print" (visible depuis print-preview.html).

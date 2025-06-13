@@ -69,9 +69,9 @@ for $role in //tei:roleName
 Exemple 2 :
 ```
 for $bishop in //tei:person[contains(., "bishop")]
-    return <bishop>
+    return <p>
                 {$bishop//tei:persName/concat(tei:forename, ' ', tei:surname)}
-           </bishop>                
+           </p>                
 ```
 
 Fonction native de XQuery :
@@ -104,7 +104,7 @@ for $F in //tei:div[@type="HistoricalPeople"]//tei:person[@sex="F"]
     return $name
 ```
 
-Fonctions native de XQuery :
+Fonctions natives de XQuery :
 
 - fn:string-join : Concatène une séquence de caractères ($arg1) en indiquant un séparateur ($arg2).
 - fn:matches : Permet de rechercher une chaîne de caractères ($input) à l'aide d'une expression régulière ($pattern).
