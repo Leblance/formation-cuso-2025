@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_106">
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_106">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -136,7 +134,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX5494807.html" type="tipo_texto">Panegíricos</term>
+          <term target="XX5501105.html" type="tipo_texto">Coplas</term>
           <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -150,7 +148,7 @@
   </teiHeader>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_106_1" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_106_1.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_106_1.jpg"/>
       <zone xml:id="Varios_106_1_BT223_1" n="1" type="CustomZone" subtype="title" points="688,1747 629,1719 629,1638 1323,1628 1391,1668 1351,1747 " source="Varios_106_1/629,1628,762,119/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_106_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="650,1719 650,1630 1039,1638 1044,1638 1062,1625 1065,1625 1067,1625 1070,1625 1275,1640 1277,1640 1280,1640 1297,1628 1300,1628 1302,1628 1305,1628 1308,1628 1343,1643 1343,1726 1340,1742 1123,1757 1120,1757 1118,1757 1067,1742 1057,1742 1047,1742 984,1754 981,1754 931,1742 920,1742 647,1742 " source="Varios_106_1/647,1625,696,132/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_106_1_BT223_1_LT84_1_1" points="650,1719 1343,1726 "/>
@@ -250,7 +248,7 @@
       <zone xml:id="Varios_106_1_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="273,247 253,1601 1763,1604 1789,249 " source="Varios_106_1/253,247,1536,1357/full/0/default" corresp="GraphicZone:illustration"/>
     </surface>
     <surface xml:id="Varios_106_2" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_106_2.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_106_2.jpg"/>
       <zone xml:id="Varios_106_2_BT223_1" n="1" type="CustomZone" subtype="title" points="1793,1504 770,1479 770,1355 1793,1365 1834,1423 " source="Varios_106_2/770,1355,1064,149/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_106_2_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="802,1474 794,1382 1773,1370 1781,1463 1778,1481 1563,1496 1561,1496 1558,1496 1540,1486 1533,1496 1530,1496 1530,1499 1528,1499 1525,1499 1523,1499 799,1491 " source="Varios_106_2/794,1370,987,129/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_106_2_BT223_1_LT84_1_1" points="802,1474 1781,1463 "/>

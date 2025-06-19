@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_312">
+<?xml-model href="https://raw.githubusercontent.com/DesenrollandoElCordel/Varios-TEI-files/refs/heads/main/Schema/oddPliego_varios.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_312">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -161,7 +159,7 @@
   </teiHeader>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_312_1" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_1.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_312_1.jpg"/>
       <zone xml:id="Varios_312_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1469,1342 1469,1451 205,1451 205,1342 " source="Varios_312_1/205,1342,1264,109/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_312_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="232,1388 230,1405 258,1405 260,1405 277,1418 279,1418 280,1418 281,1418 343,1406 344,1406 395,1418 397,1418 398,1418 425,1406 435,1403 471,1407 556,1418 558,1418 596,1409 620,1403 632,1409 642,1415 644,1415 645,1415 647,1415 661,1410 677,1405 786,1412 835,1415 837,1415 838,1415 844,1413 863,1405 955,1405 984,1413 986,1413 987,1413 989,1413 1011,1406 1087,1407 1106,1416 1116,1421 1117,1421 1119,1421 1120,1421 1133,1416 1170,1406 1189,1418 1193,1421 1195,1421 1196,1421 1198,1422 1447,1422 1449,1393 1447,1362 1361,1352 1360,1352 1358,1352 1357,1352 1342,1361 1339,1364 1247,1364 1240,1361 1203,1351 1202,1351 1201,1351 1199,1351 1165,1361 1157,1362 1148,1361 1107,1351 1106,1351 1104,1351 1079,1359 1073,1362 1068,1359 1044,1349 1043,1349 1008,1349 1006,1349 1005,1349 1003,1349 990,1359 989,1361 986,1359 957,1349 955,1349 954,1349 952,1349 913,1359 911,1359 910,1359 895,1352 894,1352 892,1352 891,1352 889,1352 881,1359 878,1361 866,1359 809,1351 807,1351 745,1358 724,1361 720,1358 707,1349 705,1349 704,1349 702,1349 701,1349 670,1358 661,1361 656,1358 637,1348 635,1348 542,1348 540,1348 539,1348 524,1355 444,1348 442,1348 441,1348 439,1348 428,1358 426,1358 340,1359 334,1356 321,1348 319,1348 318,1348 317,1348 315,1348 295,1356 289,1359 279,1356 249,1348 248,1348 246,1348 245,1348 232,1353 232,1388 " source="Varios_312_1/230,1348,1219,74/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_312_1_BT223_1_LT84_1_1" points="232,1388 1449,1393 "/>
@@ -290,7 +288,7 @@
           <line>la vida toda:</line>
         </zone>
         <zone xml:id="Varios_312_1_BT227_4__10" type="DefaultLine" subtype="none" points="1175,2096 1171,2096 1125,2111 1050,2111 1037,2105 1026,2096 1024,2096 1022,2096 1019,2096 1017,2096 978,2107 978,2140 976,2166 1421,2166 1423,2144 1423,2076 1311,2076 1309,2076 1307,2076 1305,2076 1305,2079 1298,2085 1269,2111 1239,2103 1237,2103 1234,2103 1232,2103 1204,2114 1186,2096 1175,2096 " source="Varios_312_1/976,2076,447,90/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_312_1_BT227_4__10_1" points="980,2142 1424,2145 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_312_1_BT227_4__10_1" points="980,2142 1424,2145 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>mas nunca le oigo hablar</line>
         </zone>
         <zone xml:id="Varios_312_1_BT227_4_LT83_11" type="DefaultLine" subtype="none" points="1053,2201 1110,2212 1111,2212 1164,2206 1193,2203 1345,2214 1348,2190 1345,2161 1054,2161 1054,2187 " source="Varios_312_1/1053,2161,295,53/full/0/default" corresp="DefaultLine">
@@ -325,7 +323,7 @@
       <zone xml:id="Varios_312_1_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="65,68 87,1330 1627,1330 1627,79 " source="Varios_312_1/65,68,1562,1262/full/0/default" corresp="GraphicZone:illustration"/>
     </surface>
     <surface xml:id="Varios_312_2" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_2.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_312_2.jpg"/>
       <zone xml:id="Varios_312_2_BT227_1" n="1" type="MainZone" subtype="columns" points="643,8 643,2459 92,2459 92,8 " source="Varios_312_2/92,8,551,2451/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_2_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="525,8 523,8 420,13 376,15 230,8 227,8 213,8 201,8 201,33 199,52 286,49 339,57 351,59 352,59 354,59 355,59 356,57 367,50 443,50 548,62 551,38 551,17 526,8 525,8 " source="Varios_312_2/199,8,352,54/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_2_BT227_1_LT83_1_1" points="201,33 551,38 " corresp="DefaultLine"/>
@@ -744,7 +742,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_312_3" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_3.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_312_3.jpg"/>
       <zone xml:id="Varios_312_3_BT227_1" n="1" type="MainZone" subtype="columns" points="699,10 791,2154 213,2144 203,10 " source="Varios_312_3/203,10,588,2144/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_3_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="477,45 477,57 531,62 533,45 533,14 477,14 477,45 " source="Varios_312_3/477,14,56,48/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_3_BT227_1_LT83_1_1" points="479,47 535,47 " corresp="DefaultLine"/>
@@ -1161,7 +1159,7 @@
       </zone>
     </surface>
     <surface xml:id="Varios_312_4" type="page" cert="silver">
-      <graphic url="https://iiif.hedera.unige.ch/iiif/3/pliegos/varios/Varios_312_4.jpg/full/max/0/default.jpg"/>
+      <graphic url="iiif:varios/Varios_312_4.jpg"/>
       <zone xml:id="Varios_312_4_BT227_1" n="1" type="MainZone" subtype="columns" points="810,83 810,2088 191,2088 191,83 " source="Varios_312_4/191,83,619,2005/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_312_4_BT227_1_LT83_1" type="DefaultLine" subtype="none" points="524,83 509,83 495,83 480,83 466,83 460,83 429,87 404,83 393,83 378,83 356,92 303,83 290,83 286,83 232,93 233,122 233,135 488,140 489,140 618,129 618,118 615,90 537,83 524,83 " source="Varios_312_4/232,83,386,57/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_312_4_BT227_1_LT83_1_1" points="233,122 618,118 " corresp="DefaultLine"/>
@@ -1280,7 +1278,7 @@
           <line>La otra noche se reunieron</line>
         </zone>
         <zone xml:id="Varios_312_4_BT227_1__30" type="DefaultLine" subtype="none" points="443,1246 443,1253 526,1259 528,1240 524,1209 497,1200 495,1200 493,1200 491,1200 438,1215 443,1246 " source="Varios_312_4/438,1200,90,59/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_312_4_BT227_1__30_1" points="445,1248 529,1241 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_312_4_BT227_1__30_1" points="445,1248 529,1241 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>3.</line>
         </zone>
         <zone xml:id="Varios_312_4_BT227_1_LT83_31" type="DefaultLine" subtype="none" points="227,1318 227,1334 615,1334 616,1315 612,1279 290,1285 226,1276 227,1318 " source="Varios_312_4/226,1276,390,58/full/0/default" corresp="DefaultLine">

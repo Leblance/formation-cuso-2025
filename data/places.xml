@@ -17,48 +17,56 @@
       <listPlace xml:base="https://www.wikidata.org/wiki/">
          <place n="3" corresp="Q80561">
             <placeName xml:id="Antioquía">Antioquía</placeName>
+            <desc>District and city in Hatay, Turkey</desc>
             <location>
                <geo>36.2025 36.1605555555555</geo>
             </location>
          </place>
          <place n="1" corresp="Q1524">
             <placeName xml:id="Atenas">Atenas</placeName>
+            <desc>Capital and largest city of Greece</desc>
             <location>
                <geo>37.9841666666667 23.7280555555556</geo>
             </location>
          </place>
          <place n="1" corresp="Q189901">
             <placeName xml:id="Argos">Argos</placeName>
+            <desc>City in Argolis, Peloponnese, Greece</desc>
             <location>
                <geo>37.6333333333333 22.7291666666667</geo>
             </location>
          </place>
          <place n="1" corresp="Q79">
             <placeName xml:id="Egipto">Egipto</placeName>
+            <desc>Country in Northeast Africa and Southwest Asia</desc>
             <location>
                <geo>27 29</geo>
             </location>
          </place>
          <place n="1" corresp="Q104028">
             <placeName xml:id="Judea">Judea</placeName>
+            <desc>Region of ancient Israel</desc>
             <location>
                <geo>31.698889 35.306389</geo>
             </location>
          </place>
          <place n="1" corresp="Q209349">
             <placeName xml:id="Nicomedia">Nicomedia</placeName>
+            <desc>Ancient city of Bithynia</desc>
             <location>
                <geo>40.7625 29.9175</geo>
             </location>
          </place>
          <place n="1" corresp="Q220">
             <placeName xml:id="Roma">Roma</placeName>
+            <desc>Capital and largest city of Italy</desc>
             <location>
                <geo>41.893055555556 12.482777777778</geo>
             </location>
          </place>
          <place n="1" corresp="Q32579">
             <placeName xml:id="Frigia">Frigia</placeName>
+            <desc>Ancient kingdom in Asia Minor</desc>
             <location>
                <geo>39 31</geo>
             </location>

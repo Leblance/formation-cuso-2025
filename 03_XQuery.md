@@ -89,7 +89,7 @@ for $oeuvre in //tei:div[@type="WorksByCraik"]//tei:bibl
     order by $datePub
     return if ($datePub) then (
       <p>
-        <title>{string-join($oeuvre/tei:title, ', ')}</titre>, 
+        <title>{string-join($oeuvre/tei:title, ', ')}</title>, 
         <date>{string-join($datePub, ' ')}</date>
       </p>
     )
