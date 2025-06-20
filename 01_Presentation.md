@@ -41,7 +41,7 @@ NB : Sur le site de l'association e-editiones, vous trouverez un [registre](http
     - Votre ODD apparaît dans la liste. Vous pouvez maintenant la personnaliser en cliquant sur son nom.
 1. Cliquer sur "Fonctions avancées > Générateur d'applications".
     - Dans la liste, sélectionner l'ODD que vous venez de créer.
-    - URL : http://exist-db.org/apps/mon-app
+    - URL : https://e-editiones.org/apps/my-simple-app
     - Nom abrégé : (Le super nom de votre application !).
     - Titre : (Le super titre de votre application !).
     - Gabarit HTML : Choisir celui qui se rapproche le plus de vos besoins (Pas de panique, non seulement vous pourrez le personnaliser, mais vous pourrez également le changer si besoin. Votre choix n'est donc pas décisif).
